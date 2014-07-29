@@ -11,22 +11,22 @@
     </div>
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li>
+        <li{{#is basename "socialize"}} class="active"{{/is}}>
           <a href="{{relative dest 'socialize.html'}}">Socialize</a>
         </li>
-        <li>
+        <li{{#is basename "learn"}} class="active"{{/is}}>
           <a href="{{relative dest 'learn.html'}}">Learn</a>
         </li>
-        <li>
+        <li{{#is basename "test"}} class="active"{{/is}}>
           <a href="{{relative dest 'test.html'}}">Test</a>
         </li>
-        <li>
+        <li{{#is basename "practice"}} class="active"{{/is}}>
           <a href="{{relative dest 'practice.html'}}">Practice</a>
         </li>
-        <li>
+        <li{{#is basename "pscomms"}} class="active"{{/is}}>
           <a href="{{relative dest 'pscomms.html'}}">Serve</a>
         </li>
-        <li>
+        <li{{#is basename "map"}} class="active"{{/is}}>
           <a href="{{relative dest 'map.html'}}">Map</a>
         </li>
       </ul>
