@@ -6,6 +6,3 @@ foreign import windowWidth
 
 zoomByWidth :: Number -> Number
 zoomByWidth w = if w > 768 then 11 else 10
-
-zoomByWindowWidth :: Number
-zoomByWindowWidth = zoomByWidth windowWidth
