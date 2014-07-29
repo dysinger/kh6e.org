@@ -1,10 +1,5 @@
 module KH6E where
 
--- import Data.Foreign.EasyFFI
-
--- windowWidth :: Number
--- windowWidth = unsafeForeignFunction [] "$(window).width()"
-
 foreign import windowWidth
   "function windowWidth() { return $(window).width(); }"
   :: Number

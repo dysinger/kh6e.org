@@ -3,6 +3,13 @@
 module.exports = function(grunt) {
   require("time-grunt")(grunt);
 
+  // https://github.com/amitayd/grunt-browserify-jasmine-node-example
+  // TODO add uglify
+  // TODO grunt-contrib-jasmine
+  // TODO add phantom
+  // TODO add travisci & travisci -> s3
+  // TODO add https://ci.testling.com/
+
   grunt.initConfig({
 
     // purescript //
@@ -17,22 +24,22 @@ module.exports = function(grunt) {
         },
         src: "<%= libFiles %>",
         dest: "dist/assets/js/kh6e.js"
+      },
+      tests: {
+        options: {
+          main: true
+        },
+        src: [ "<%= libFiles %>", "tests/Tests.purs" ],
+        dest: "tmp/tests.js"
       }
     },
-    pscMake: {
-      tests: { src: [ "<%= libFiles %>", "tests/Tests.purs" ] }
-    },
     dotPsci: [ "<%= libFiles %>" ],
-    execute: { tests: { src: "tmp/index.js" } },
+    execute: {
+      tests: { src: "tmp/tests.js" }
+    },
 
     // copy //
     copy: {
-      ps: {
-        cwd: "output",
-        src: ["**"],
-        dest: "tmp/node_modules/",
-        expand: true
-      },
       bower: {
         files: [
           { cwd: "bower_components/L.GeoSearch/src/",
@@ -144,7 +151,6 @@ module.exports = function(grunt) {
 
     // clean //
     clean: {
-      lib: ["output"],
       tests: ["tmp"],
       assemble: ["dist"]
     },
@@ -187,8 +193,7 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask("test", [
-    "pscMake:tests",
-    "copy:ps",
+    "psc:tests",
     "execute:tests"
   ]);
 
