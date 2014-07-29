@@ -22,7 +22,7 @@ module.exports = function(grunt) {
     pscMake: {
       tests: { src: [ "<%= libFiles %>", "tests/Tests.purs" ] }
     },
-    dotPsci: "<%= libFiles %>",
+    dotPsci: [ "<%= libFiles %>" ],
     execute: { tests: { src: "tmp/index.js" } },
 
     // copy //
