@@ -82,6 +82,6 @@ $(function() {
   }).addTo(map);
   new L.Control.GeoSearch({
     provider: new L.GeoSearch.Provider.Esri(),
-    zoomLevel: 10
+    zoomLevel: zoomByWidth
   }).addTo(map);
 });
