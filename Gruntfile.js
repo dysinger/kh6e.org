@@ -10,21 +10,20 @@ module.exports = function(grunt) {
       "src/**/*.purs",
       "bower_components/purescript-*/src/**/*.purs"
     ],
-    pscMake: {
+    psc: {
       lib: {
-        src: ["<%= libFiles %>"],
+        options: {
+          modules: "KH6E"
+        },
+        src: "<%= libFiles %>",
         dest: "dist/assets/js/kh6e.js"
-      },
-      tests: {
-        src: ["tests/Tests.purs", "<%= libFiles %>"]
       }
     },
-    dotPsci: ["<%= libFiles %>"],
-    execute: {
-      tests: {
-        src: "tmp/index.js"
-      }
+    pscMake: {
+      tests: { src: [ "<%= libFiles %>", "tests/Tests.purs" ] }
     },
+    dotPsci: "<%= libFiles %>",
+    execute: { tests: { src: "tmp/index.js" } },
 
     // copy //
     copy: {
@@ -175,7 +174,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-verb");
 
   grunt.registerTask("build", [
-    "pscMake:lib",
+    "psc:lib",
     "dotPsci",
     "assemble",
     "less",
