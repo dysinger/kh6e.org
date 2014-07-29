@@ -130,7 +130,7 @@ module.exports = function(grunt) {
     watch: {
       assemble: {
         files: ["{,*/}*.{md,hbs,yml,less,js}"],
-        tasks: ["assemble"]
+        tasks: ["assemble", "copy"]
       },
       ps: {
         files: ["{,*/}*.{purs}"],
