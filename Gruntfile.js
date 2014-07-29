@@ -12,7 +12,8 @@ module.exports = function(grunt) {
     ],
     pscMake: {
       lib: {
-        src: ["<%= libFiles %>"]
+        src: ["<%= libFiles %>"],
+        dest: "dist/assets/js/kh6e.js"
       },
       tests: {
         src: ["tests/Tests.purs", "<%= libFiles %>"]
