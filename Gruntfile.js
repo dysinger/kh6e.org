@@ -122,8 +122,12 @@ module.exports = function(grunt) {
     // watch //
     watch: {
       assemble: {
-        files: ["{,*/}*.{md,hbs,yml,less,purs,js}"],
-        tasks: ["build"]
+        files: ["{,*/}*.{md,hbs,yml,less,js}"],
+        tasks: ["assemble"]
+      },
+      ps: {
+        files: ["{,*/}*.{purs}"],
+        tasks: ["psc"]
       },
       livereload: {
         options: {
