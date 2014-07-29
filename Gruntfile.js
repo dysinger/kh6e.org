@@ -192,25 +192,8 @@ module.exports = function(grunt) {
     "copy:site"
   ]);
 
-  grunt.registerTask("test", [
-    "psc:tests",
-    "execute:tests"
-  ]);
-
-  grunt.registerTask("dev", [
-    "build",
-    "connect:livereload",
-    "watch"
-  ]);
-
-  grunt.registerTask("deploy", [
-    "build",
-    "s3"
-  ]);
-
-  grunt.registerTask("default", [
-    "clean",
-    "build",
-    "test"
-  ]);
+  grunt.registerTask("test", [ "psc:tests", "execute:tests" ]);
+  grunt.registerTask("dev", [ "build", "connect:livereload", "watch" ]);
+  grunt.registerTask("deploy", [ "build", "s3" ]);
+  grunt.registerTask("default", [ "build" ]);
 };
