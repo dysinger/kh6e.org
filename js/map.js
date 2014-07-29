@@ -1,7 +1,5 @@
-var map;
 $(function() {
-  var width = $(window).width();
-  var zoomByWidth = width > 768 ? 11 : 10
+  "use strict";
   var centerOfKauai = L.latLng( [22.032822,-159.535493] );
   var boundaryOfKauai =
     L.latLngBounds( [[21.838940,-159.867926], [22.263536,-159.214770]] ).pad(.5);
@@ -65,13 +63,15 @@ $(function() {
       })}).bindPopup('The Feral Pig')
   ]);
   // map
-  map = L.map('map', {
+  var K = PS.KH6E;
+  var width = K.windowWidth();
+  var map = L.map('map', {
     attributionControl: false,
     center: centerOfKauai,
     layers: [ mqOSM, repeaters, meetings ],
     maxBounds: boundaryOfKauai,
     scrollWheelZoom: false,
-    zoom: zoomByWidth
+    zoom: K.zoomByWidth(width)
   });
   L.control.layers({
     "Street": mqOSM,
@@ -82,6 +82,6 @@ $(function() {
   }).addTo(map);
   new L.Control.GeoSearch({
     provider: new L.GeoSearch.Provider.Esri(),
-    zoomLevel: zoomByWidth
+    zoomLevel: K.zoomByWidth(width)
   }).addTo(map);
 });
