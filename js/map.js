@@ -23,7 +23,7 @@ $(function() {
         prefix: 'glyphicon',
         icon: 'transfer',
         markerColor: 'green'
-      })}).bindPopup('Mt. Kahili: 142.920 (-)'),
+      })}).bindPopup('Mt. Kahili: 146.920 (-)'),
     L.marker([ 21.985710, -159.365105 ], {
       icon: L.AwesomeMarkers.icon({
         prefix: 'glyphicon',
