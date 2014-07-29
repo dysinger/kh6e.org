@@ -1,0 +1,60 @@
+{
+  "author": {
+    "name": "Tim Dysinger",
+    "url": "http://github.com/dysinger/"
+  },
+  "bugs": {
+    "url": "https://github.com/dysinger/kh6e/issues"
+  },
+  "dependencies": {
+    "underscore": "*"
+  },
+  "description": "Kauai Ham Radio Club.",
+  "devDependencies": {
+    "assemble": "*",
+    "assemble-contrib-sitemap": "*",
+    "assemble-less": "*",
+    "assemble-middleware-permalinks": "*",
+    "bower": "*",
+    "frep": "*",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-execute": "*",
+    "grunt-frep": "*",
+    "grunt-purescript": "*",
+    "grunt-s3": "*",
+    "grunt-sync-pkg": "*",
+    "grunt-verb": "*",
+    "handlebars-helper-prettify": "*",
+    "load-grunt-tasks": "*",
+    "pretty": "*",
+    "time-grunt": "*"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "homepage": "https://github.com/dysinger/kh6e",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dysinger/kh6e/blob/master/LICENSE-MIT"
+    }
+  ],
+  "name": "kh6e",
+  "private": "true",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dysinger/kh6e.git"
+  },
+  "scripts": {
+    "build": "grunt build",
+    "test": "grunt test"
+  },
+  "version": "0.1.0"
+}

@@ -1,0 +1,97 @@
+@import "variables.less";
+
+.script-font() {
+    font-family: 'Merienda', cursive;
+}
+
+.body-font() {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.heading-font() {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    overflow-x: hidden;
+    .body-font;
+    background-color: @gray-lighter;
+    webkit-tap-highlight-color: @brand-primary;
+}
+
+.navbar-default {
+    background-color: @ps-nav-bg;
+    padding: 10px 0;
+    .navbar-brand {
+        color: @brand-primary;
+        font-size: 1.5em;
+        .script-font;
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            color: white;
+        }
+    }
+    .nav {
+        li {
+            a {
+                .heading-font;
+                font-weight: 400;
+                letter-spacing: 1px;
+                color: white;
+                &:hover,
+                &:focus {
+                    color: @brand-primary;
+                    outline: none;
+                }
+            }
+        }
+    }
+    .navbar-nav>.active>a {
+        border-radius: 0;
+        color: white;
+        background-color: @brand-primary;
+    }
+    .navbar-nav>.active>a:hover,
+    .navbar-nav>.active>a:focus {
+        color: white;
+        background-color: darken(@brand-primary, 10%);
+    }
+}
+
+footer {
+    margin-bottom: 10px;
+}
+
+@media(min-width:768px) {
+    footer {
+        margin-bottom: 40px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    .script-font;
+    font-weight: 700;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+a {
+    color: @brand-primary;
+}
+a, a:hover, a:focus, a:active, a.active {
+    color: darken(@brand-primary, 10%);
+}
+
+div#map {
+    position: absolute;
+    top: 70px; // TODO USE NAVBAR HEIGHT VARIABLE
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

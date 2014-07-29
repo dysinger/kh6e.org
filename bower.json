@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "L.GeoSearch": "*",
+    "Leaflet.awesome-markers": "*",
+    "bootstrap": "*",
+    "classie": "*",
+    "font-awesome": "*",
+    "html5shiv": "*",
+    "jquery": "*",
+    "leaflet": "*",
+    "purescript-arrays": "*",
+    "purescript-easy-ffi": "*",
+    "purescript-foldable-traversable": "*",
+    "purescript-math": "*",
+    "purescript-maybe": "*"
+  },
+  "devDependencies": {
+    "purescript-quickcheck": "*"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules"
+  ],
+  "name": "kh6e",
+  "private": "true"
+}

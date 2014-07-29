@@ -1,0 +1,95 @@
+@import "common.less";
+
+.background-cover() {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header#splash {
+    background-image: url('../img/kauai0.jpg');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    .background-cover;
+    text-align: center;
+    color: white;
+    .intro-text {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        .intro-lead-in {
+            .script-font;
+            font-style: italic;
+            font-size: 18px;
+            line-height: 18px;
+            margin-bottom: 20px;
+        }
+        .intro-heading {
+            .script-font;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 24px;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+@media(min-width:768px) {
+    header#splash {
+        margin-bottom: 10px;
+        .intro-text {
+            padding-top: 300px;
+            padding-bottom: 200px;
+            .intro-lead-in {
+                .script-font;
+                font-style: italic;
+                font-size: 24px;
+                line-height: 24px;
+                margin-bottom: 24px;
+            }
+            .intro-heading {
+                .script-font;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 32px;
+                margin-bottom: 32px;
+            }
+        }
+    }
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        background-color: transparent;
+        padding: 25px 0;
+        -webkit-transition: padding 0.3s;
+        -moz-transition: padding 0.3s;
+        transition: padding 0.3s;
+        border: none;
+        .navbar-brand {
+            color: darken(@brand-primary, 15%);
+            font-size: 2em;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        .navbar-nav>.active>a {
+            border-radius: 3px;
+        }
+    }
+    .navbar-default.navbar-shrink {
+        background-color: @navbar-default-bg;
+        padding: 10px 0;
+        .navbar-brand {
+            color: @brand-primary;
+            font-size: 1.5em;
+            &:hover,
+            &:focus,
+            &:active,
+            &.active {
+                color: white;
+            }
+        }
+    }
+}
