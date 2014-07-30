@@ -1,6 +1,7 @@
+/.aws.json
 /.psci
+/.psci_modules/
 /bower_components/
 /dist/
 /node_modules/
 /tmp/
-/.aws.json
