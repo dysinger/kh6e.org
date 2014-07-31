@@ -72,9 +72,9 @@ kauaiMap = do
   let centerOfKauai = latLng 22.032822 (-159.535493)
       cornerKauaiSE = latLng 21.838940 (-159.867926)
       cornerKauaiNE = latLng 22.263536 (-159.214770)
-      kauaiBounds = pad 0.5 $ latLngBounds cornerKauaiSE cornerKauaiNE
+  bounds <- pad 0.5 $ latLngBounds cornerKauaiSE cornerKauaiNE
   createMap "map" { attributionControl: false,
                     center: centerOfKauai,
                     layers: [ streetMap, repeaters, places ],
-                    maxBounds: kauaiBounds,
+                    maxBounds: bounds,
                     zoom: 11 }

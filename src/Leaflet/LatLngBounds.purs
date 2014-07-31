@@ -1,5 +1,6 @@
 module Leaflet.LatLngBounds where
 
+import Control.Monad.Eff
 import Leaflet.Types
 
 foreign import latLngBounds
@@ -13,7 +14,9 @@ foreign import latLngBounds
 foreign import pad
   "function pad(n) {\
   \  return function(l) {\
-  \    return l.pad(n);\
+  \    return function() {\
+  \      return l.pad(n);\
+  \    }\
   \  }\
   \}"
-  :: Number -> LatLngBounds -> LatLngBounds
+  :: forall e. Number -> LatLngBounds -> Eff e LatLngBounds
