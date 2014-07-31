@@ -77,7 +77,7 @@ module.exports = function(grunt) {
         ]
       },
       site: {
-        src: ["js/**", "img/**"],
+        src: ["js/**", "img/**", "doc/**"],
         dest: "dist/assets/",
         expand: true
       },
