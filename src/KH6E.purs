@@ -13,18 +13,20 @@ import           Leaflet.Popup
 import           Leaflet.TileLayer
 import           Leaflet.Types
 
-streetMap = toILayer
-            $ tileLayer "http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpg"
-            $ { subdomains: [ "otile1", "otile2", "otile3", "otile4" ] }
+streetMap = do
+  tile <- tileLayer "http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpg"
+          $ { subdomains: [ "otile1", "otile2", "otile3", "otile4" ] }
+  return $ toILayer tile
 
-topoMap = toILayer
-          $ tileLayer "http://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png"
+topoMap = do
+  tile <- tileLayer "http://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png"
           $ { subdomains: [] }
+  return $ toILayer tile
 
 karcRepeaters = do
-  let greenTransferIcon = Awesome.icon { prefix: "glyphicon"
-                                       , icon: "transfer"
-                                       , markerColor: "green" }
+  greenTransferIcon <- Awesome.icon { prefix: "glyphicon"
+                                    , icon: "transfer"
+                                    , markerColor: "green" }
   kahili <- bindPopup "Mt. Kahili: 146.920 (-)" {}
             $ marker { icon: greenTransferIcon }
             $ latLng 21.973375 (-159.495779)
@@ -40,15 +42,15 @@ karcRepeaters = do
   return $ toILayer $ layerGroup $ map toILayer [ kahili, wilcox, waimea, crater ]
 
 karcMeetingPlaces = do
-  let blueInstitutionIcon = Awesome.icon { prefix: "fa"
-                                         , icon: "institution"
-                                         , markerColor: "blue" }
-      blueFlashIcon = Awesome.icon { prefix: "glyphicon"
-                                   , icon: "flash"
-                                   , markerColor: "blue" }
-      blueCutleryIcon = Awesome.icon { prefix: "glyphicon"
-                                     , icon: "cutlery"
-                                     , markerColor: "blue" }
+  blueInstitutionIcon <- Awesome.icon { prefix: "fa"
+                                      , icon: "institution"
+                                      , markerColor: "blue" }
+  blueFlashIcon <- Awesome.icon { prefix: "glyphicon"
+                                , icon: "flash"
+                                , markerColor: "blue" }
+  blueCutleryIcon <- Awesome.icon { prefix: "glyphicon"
+                                  , icon: "cutlery"
+                                  , markerColor: "blue" }
   civic <- bindPopup "Kauai Civic Center" {}
            $ marker { icon: blueInstitutionIcon }
            $ latLng 21.975914 (-159.368900)
@@ -60,7 +62,6 @@ karcMeetingPlaces = do
            $ latLng 21.961465 (-159.353008)
   return $ toILayer $ layerGroup $ map toILayer [ civic, kiuc, fpig ]
 
-
 foreign import windowWidth
   "function windowWidth() { return $(window).width(); }"
   :: forall e. Eff e Number
@@ -69,6 +70,7 @@ zoomByWidth n = if n > 768 then 11 else 10
 
 kauaiMap :: forall e. Eff e Map
 kauaiMap = do
+  map <- streetMap
   repeaters <- karcRepeaters
   places <- karcMeetingPlaces
   let centerOfKauai = latLng 22.032822 (-159.535493)
@@ -78,6 +80,6 @@ kauaiMap = do
   width <- windowWidth
   createMap "map" { attributionControl: false,
                     center: centerOfKauai,
-                    layers: [ streetMap, repeaters, places ],
+                    layers: [ map, repeaters, places ],
                     maxBounds: bounds,
                     zoom: zoomByWidth width }

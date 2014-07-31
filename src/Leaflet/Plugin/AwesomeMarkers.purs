@@ -1,5 +1,6 @@
 module Leaflet.Plugin.AwesomeMarkers where
 
+import Control.Monad.Eff
 import Leaflet.Types
 
 type IconOptions = { prefix :: String,
@@ -8,6 +9,8 @@ type IconOptions = { prefix :: String,
 
 foreign import icon
   "function icon(o) {\
-  \  return L.AwesomeMarkers.icon(o);\
+  \  return function() {\
+  \    return L.AwesomeMarkers.icon(o);\
+  \  }\
   \}"
-  :: IconOptions -> Icon
+  :: forall e. IconOptions -> Eff e Icon

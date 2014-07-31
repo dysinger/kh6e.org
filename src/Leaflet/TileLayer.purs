@@ -1,5 +1,6 @@
 module Leaflet.TileLayer where
 
+import Control.Monad.Eff
 import Leaflet.Types
 
 foreign import tileLayerToILayer
@@ -13,7 +14,9 @@ instance tileLayerLayer :: Layer TileLayer where
 foreign import tileLayer
   "function tileLayer(u) {\
   \  return function(o) {\
-  \    return L.tileLayer(u,o);\
+  \    return function() {\
+  \      return L.tileLayer(u,o);\
+  \    }\
   \  }\
   \}"
-  :: URL -> TileLayerOptions -> TileLayer
+  :: forall e. URL -> TileLayerOptions -> Eff e TileLayer
