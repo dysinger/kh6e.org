@@ -13,10 +13,6 @@ import           Leaflet.Popup
 import           Leaflet.TileLayer
 import           Leaflet.Types
 
-foreign import windowWidth
-  "function windowWidth() { return $(window).width(); }"
-  :: forall e. Eff e Number
-
 streetMap = toILayer
             $ tileLayer "http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpg"
             $ { subdomains: [ "otile1", "otile2", "otile3", "otile4" ] }
@@ -65,6 +61,12 @@ karcMeetingPlaces = do
   return $ toILayer $ layerGroup $ map toILayer [ civic, kiuc, fpig ]
 
 
+foreign import windowWidth
+  "function windowWidth() { return $(window).width(); }"
+  :: forall e. Eff e Number
+
+zoomByWidth n = if n > 768 then 11 else 10
+
 kauaiMap :: forall e. Eff e Map
 kauaiMap = do
   repeaters <- karcRepeaters
@@ -73,8 +75,9 @@ kauaiMap = do
       cornerKauaiSE = latLng 21.838940 (-159.867926)
       cornerKauaiNE = latLng 22.263536 (-159.214770)
   bounds <- pad 0.5 $ latLngBounds cornerKauaiSE cornerKauaiNE
+  width <- windowWidth
   createMap "map" { attributionControl: false,
                     center: centerOfKauai,
                     layers: [ streetMap, repeaters, places ],
                     maxBounds: bounds,
-                    zoom: 11 }
+                    zoom: zoomByWidth width }
