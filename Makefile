@@ -1,4 +1,4 @@
-all: clean build test
+all: build
 
 NOMS  := node_modules
 BOCO  := bower_components

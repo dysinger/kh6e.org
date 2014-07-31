@@ -20,7 +20,7 @@ module.exports = function(grunt) {
     psc: {
       lib: {
         options: {
-          modules: "KH6E"
+          module: [ "KH6E" ]
         },
         src: "<%= libFiles %>",
         dest: "dist/assets/js/kh6e.js"

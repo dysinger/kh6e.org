@@ -1,0 +1,2 @@
+module Leaflet.Icon where
+
