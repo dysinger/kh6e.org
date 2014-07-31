@@ -37,7 +37,7 @@ karcRepeaters = do
             $ latLng 21.985710 (-159.365105)
   waimea <- bindPopup "Waimea Canyon: 147.100 (+)" {}
             $ marker { icon: greenTransferIcon }
-            $ latLng 22.221804 (-159.400771)
+            $ latLng 22.052902 (-159.661602)
   crater <- bindPopup "Crater Hill: 146.700 (-)" {}
             $ marker { icon: greenTransferIcon }
             $ latLng 22.221804 (-159.400771)
