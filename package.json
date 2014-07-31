@@ -53,8 +53,8 @@
     "url": "git://github.com/dysinger/kh6e.git"
   },
   "scripts": {
-    "build": "grunt build",
-    "test": "grunt test"
+    "build": "./node_modules/.bin/grunt build --verbose",
+    "test": "./node_modules/.bin/grunt test --verbose"
   },
   "version": "0.1.0"
 }
