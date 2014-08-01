@@ -11,13 +11,14 @@ install: cabal install purescript && make
 script: make test
 notifications:
   irc: irc.freenode.org#kh6e
+before_deploy: make
 deploy:
   provider: s3
   access_key_id: AKIAJLGZLMSHROXUVFVA
   secret_access_key:
     secure: BQrrqqoCDLsbFjIp5aG/1ZOGKpY+IEjXtnnJdPz0eHW2fnk8w23nVJxyNdwWBA/ly/3Qq6dndVC3nV3s62EA6CZA6wo+dU/0++6+6P9Wg9kae1eBucDjt0BXAgP7CpdVqsXbIXa5o/+kDWZBazPAjlJ0H8Cn772BYeS/HZrjheI=
   bucket: www.kh6e.org
-  local-dir: /home/travis/build/dysinger/kh6e.org/dist/
+  local-dir: dist
   acl: !ruby/string:HighLine::String |-
     cHVibGljX3JlYWQ=
   on:
