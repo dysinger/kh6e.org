@@ -1,6 +1,10 @@
 language: node_js
 node_js:
   - 0.10
+branches:
+  except:
+    - old
+    - ancient
+script: make test
 notifications:
   irc: "irc.freenode.org#kh6e"
-script: make distclean test
