@@ -7,7 +7,7 @@ branches:
   except:
   - old
   - ancient
-install: make bower_components && cabal install purescript
+install: cabal install purescript && make
 script: make test
 notifications:
   irc: irc.freenode.org#kh6e
