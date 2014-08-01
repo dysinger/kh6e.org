@@ -8,7 +8,7 @@ BOWER := $(NOMS)/.bin/bower
 $(NOMS): package.json
 	@npm install
 
-$(BOCO): bower.json
+$(BOCO): $(NOMS) bower.json
 	@$(BOWER) install
 
 build: $(NOMS) $(BOCO)
