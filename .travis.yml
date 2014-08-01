@@ -1,13 +1,24 @@
 language: haskell
 ghc:
-  - 7.8
+- 7.8
 node_js:
-  - 0.10
+- 0.1
 branches:
   except:
-    - old
-    - ancient
+  - old
+  - ancient
 install: make bower_components && cabal install purescript
 script: make test
 notifications:
-  irc: "irc.freenode.org#kh6e"
+  irc: irc.freenode.org#kh6e
+deploy:
+  provider: s3
+  access_key_id: AKIAJLGZLMSHROXUVFVA
+  secret_access_key:
+    secure: BQrrqqoCDLsbFjIp5aG/1ZOGKpY+IEjXtnnJdPz0eHW2fnk8w23nVJxyNdwWBA/ly/3Qq6dndVC3nV3s62EA6CZA6wo+dU/0++6+6P9Wg9kae1eBucDjt0BXAgP7CpdVqsXbIXa5o/+kDWZBazPAjlJ0H8Cn772BYeS/HZrjheI=
+  bucket: www.kh6e.org
+  local-dir: dist/
+  acl: !ruby/string:HighLine::String |-
+    cHVibGljX3JlYWQ=
+  on:
+    repo: dysinger/kh6e.org
