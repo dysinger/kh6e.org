@@ -11,7 +11,7 @@ install: cabal install purescript && make
 script: make test
 notifications:
   irc: irc.freenode.org#kh6e
-before_deploy: make
+after_success: make build
 deploy:
   provider: s3
   access_key_id: AKIAJLGZLMSHROXUVFVA
