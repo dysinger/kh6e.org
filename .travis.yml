@@ -17,7 +17,7 @@ deploy:
   secret_access_key:
     secure: BQrrqqoCDLsbFjIp5aG/1ZOGKpY+IEjXtnnJdPz0eHW2fnk8w23nVJxyNdwWBA/ly/3Qq6dndVC3nV3s62EA6CZA6wo+dU/0++6+6P9Wg9kae1eBucDjt0BXAgP7CpdVqsXbIXa5o/+kDWZBazPAjlJ0H8Cn772BYeS/HZrjheI=
   bucket: www.kh6e.org
-  local-dir: dist
+  local-dir: /home/travis/build/dysinger/kh6e.org/dist/
   acl: !ruby/string:HighLine::String |-
     cHVibGljX3JlYWQ=
   on:
