@@ -1,0 +1,20 @@
+module.exports = {
+
+  options: {
+    assets: "assets",
+    data: "data/{,*/}*.{json,yml}",
+    layoutdir: "layouts",
+    layout: "default.hbs",
+    partials: "partials/{,*/}*.hbs",
+    plugins: [
+      "assemble-contrib-permalinks",
+      "assemble-contrib-sitemap"
+    ],
+    flatten: true
+  },
+
+  site: {
+    files: {"dist/": "pages/{,*/}*.hbs"}
+  }
+
+};

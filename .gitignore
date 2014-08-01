@@ -1,7 +1,9 @@
+/*.log
 /.aws.json
 /.psci
 /.psci_modules/
 /bower_components/
+/config/*-user.*
 /dist/
 /node_modules/
 /tmp/

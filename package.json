@@ -19,6 +19,7 @@
     "frep": "*",
     "grunt": "*",
     "grunt-cli": "*",
+    "grunt-configure": "*",
     "grunt-contrib-clean": "*",
     "grunt-contrib-connect": "*",
     "grunt-contrib-copy": "*",
