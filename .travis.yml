@@ -9,19 +9,19 @@ branches:
   - ancient
 install: cabal install purescript
 script: make && make test
-deploy:
-  provider: s3
-  access_key_id: AKIAJLGZLMSHROXUVFVA
-  secret_access_key:
-    secure: cWXWXqKfWhugJkYd/8dLtdu4fhGZvQkrLc4JVO1hBkhWCB0XBmTG37lfeJToAiSquxwweD7sh+TJBaEOj53jk0Hcl+C9FzAqxFNTmAGBfQo4dVEwasPx0blUxmgW8sOfUnWsTuMnxcmbNGdO+j82VJ2vI69u3uH/z4qVGMysqsU=
-  bucket: www.kh6e.org
-  skip_cleanup: true
-  region: us-east-1
-  endpoint: www.kh6e.org.s3-website-us-east-1.amazonaws.com
-  local-dir: dist
-  acl: !ruby/string:HighLine::String |-
-    cHVibGljX3JlYWQ=
-  on:
-    repo: dysinger/kh6e.org
+# deploy:
+#   provider: s3
+#   access_key_id: AKIAJLGZLMSHROXUVFVA
+#   secret_access_key:
+#     secure: cWXWXqKfWhugJkYd/8dLtdu4fhGZvQkrLc4JVO1hBkhWCB0XBmTG37lfeJToAiSquxwweD7sh+TJBaEOj53jk0Hcl+C9FzAqxFNTmAGBfQo4dVEwasPx0blUxmgW8sOfUnWsTuMnxcmbNGdO+j82VJ2vI69u3uH/z4qVGMysqsU=
+#   bucket: www.kh6e.org
+#   skip_cleanup: true
+#   region: us-east-1
+#   endpoint: www.kh6e.org.s3-website-us-east-1.amazonaws.com
+#   local-dir: dist
+#   acl: !ruby/string:HighLine::String |-
+#     cHVibGljX3JlYWQ=
+#   on:
+#     repo: dysinger/kh6e.org
 notifications:
   irc: irc.freenode.org#kh6e
