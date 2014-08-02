@@ -2,7 +2,7 @@ language: haskell
 ghc:
 - 7.8
 node_js:
-- 0.10
+- 0.1
 branches:
   except:
   - old
