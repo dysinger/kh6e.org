@@ -17,16 +17,13 @@ module.exports = function(grunt) {
   );
 
   grunt.registerTask("build", [
-    "psc:lib",
-    "dotPsci",
-    "assemble",
-    "less",
-    "copy:bower",
-    "copy:site"
+    "psc:lib", "dotPsci",
+    "assemble", "less",
+    "copy:bower", "copy:site"
   ]);
 
-  grunt.registerTask("test", [ "psc:tests", "execute:tests" ]);
-  grunt.registerTask("dev", [ "build", "connect:livereload", "watch" ]);
-  grunt.registerTask("deploy", [ "build", "s3" ]);
+  grunt.registerTask("test",    [ "psc:tests", "execute:tests" ]);
+  grunt.registerTask("dev",     [ "build", "connect:livereload", "watch" ]);
+  grunt.registerTask("deploy",  [ "build", "s3" ]);
   grunt.registerTask("default", [ "build" ]);
 };
