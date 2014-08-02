@@ -9,17 +9,19 @@ branches:
   - ancient
 install: cabal install purescript
 script: make && make test
-notifications:
-  irc: irc.freenode.org#kh6e
 deploy:
+  skip_cleanup: true
   provider: s3
   access_key_id: AKIAJLGZLMSHROXUVFVA
   secret_access_key:
     secure: CaGj50HcOUOCvOJtK9SXRz3vpTP0IepiZkMDgXnSY6To6Leis7YQtYZcRkYNIGPPPHjoEDCv8wdahOhigWsBuy7tiv39oTXRggne7ZXVrOLoql7l7rDhTnUTOgoMHbuqMVOQntr7y/1y/Qtjh6/qe8Tol/TUOD/1nrArOlkVIEQ=
   bucket: www.kh6e.org
+  region: us-east-1
+  endpoint: bucket-name.s3-website-us-east-1.amazonaws.com
   local-dir: dist
   acl: !ruby/string:HighLine::String |-
     cHVibGljX3JlYWQ=
   on:
     repo: dysinger/kh6e.org
-  skip_cleanup: true
+notifications:
+  irc: irc.freenode.org#kh6e
