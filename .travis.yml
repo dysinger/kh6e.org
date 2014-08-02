@@ -17,7 +17,7 @@ deploy:
     secure: CaGj50HcOUOCvOJtK9SXRz3vpTP0IepiZkMDgXnSY6To6Leis7YQtYZcRkYNIGPPPHjoEDCv8wdahOhigWsBuy7tiv39oTXRggne7ZXVrOLoql7l7rDhTnUTOgoMHbuqMVOQntr7y/1y/Qtjh6/qe8Tol/TUOD/1nrArOlkVIEQ=
   bucket: www.kh6e.org
   region: us-east-1
-  endpoint: bucket-name.s3-website-us-east-1.amazonaws.com
+  endpoint: www.kh6e.org.s3-website-us-east-1.amazonaws.com
   local-dir: dist
   acl: !ruby/string:HighLine::String |-
     cHVibGljX3JlYWQ=
