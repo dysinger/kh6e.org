@@ -8,11 +8,7 @@
     "html5shiv": "*",
     "jquery": "*",
     "leaflet": "*",
-    "purescript-arrays": "*",
-    "purescript-easy-ffi": "*",
-    "purescript-foldable-traversable": "*",
-    "purescript-math": "*",
-    "purescript-maybe": "*"
+    "purescript-arrays": "*"
   },
   "devDependencies": {
     "purescript-quickcheck": "*"
