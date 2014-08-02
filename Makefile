@@ -27,6 +27,6 @@ clean:
 	@if [ -f $(GRUNT) ]; then $(GRUNT) clean ; fi
 
 distclean: clean
-	@rm -rf $(NOMS) bower_components
+	@rm -rf $(NOMS) $(BOCO)
 
 .PHONY: all build test dev deploy clean distclean
