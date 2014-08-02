@@ -15,7 +15,7 @@ deploy:
   provider: s3
   access_key_id: AKIAJLGZLMSHROXUVFVA
   secret_access_key:
-    secure: BQrrqqoCDLsbFjIp5aG/1ZOGKpY+IEjXtnnJdPz0eHW2fnk8w23nVJxyNdwWBA/ly/3Qq6dndVC3nV3s62EA6CZA6wo+dU/0++6+6P9Wg9kae1eBucDjt0BXAgP7CpdVqsXbIXa5o/+kDWZBazPAjlJ0H8Cn772BYeS/HZrjheI=
+    secure: CaGj50HcOUOCvOJtK9SXRz3vpTP0IepiZkMDgXnSY6To6Leis7YQtYZcRkYNIGPPPHjoEDCv8wdahOhigWsBuy7tiv39oTXRggne7ZXVrOLoql7l7rDhTnUTOgoMHbuqMVOQntr7y/1y/Qtjh6/qe8Tol/TUOD/1nrArOlkVIEQ=
   bucket: www.kh6e.org
   local-dir: dist
   acl: !ruby/string:HighLine::String |-
