@@ -8,9 +8,10 @@ branches:
   - old
   - ancient
 install: cabal install purescript
-script: make build test && ls -la dist
+script: make && make test
 notifications:
   irc: irc.freenode.org#kh6e
+skip_cleanup: true
 deploy:
   provider: s3
   access_key_id: AKIAJLGZLMSHROXUVFVA
