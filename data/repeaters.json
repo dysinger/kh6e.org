@@ -1,0 +1,88 @@
+[
+  {
+    "call": "KH6E",
+    "frequency": 146.92,
+    "linked": true,
+    "location": "Above Kalaheo (SW)",
+    "name": "Mt Kahili",
+    "offset": "-",
+    "sponsor": "KARC"
+  },
+  {
+    "call": "KH6E",
+    "frequency": 146.7,
+    "linked": true,
+    "location": "Kilauea (N)",
+    "name": "Crater Hill",
+    "offset": "-",
+    "sponsor": "KARC"
+  },
+  {
+    "call": "KH6E",
+    "frequency": 147.1,
+    "linked": false,
+    "location": "Hwy to Kokee (W)",
+    "name": "Waimea Canyon",
+    "offset": "-",
+    "sponsor": "KARC"
+  },
+  {
+    "call": "KH6E",
+    "frequency": 147.08,
+    "linked": true,
+    "location": "Lihue, Wilcox Hospital (E)",
+    "name": "Wilcox Hospital",
+    "offset": "+",
+    "sponsor": "KARC"
+  },
+  {
+    "call": "WH6Z",
+    "frequency": 146.66,
+    "linked": false,
+    "location": "Hanamaulu, North Lihue on Mt Kalepa (E)",
+    "name": "Hanamaulu",
+    "offset": "-",
+    "sponsor": "GTE"
+  },
+  {
+    "call": "KH6KWS",
+    "frequency": 147.34,
+    "linked": false,
+    "location": "Wailua Homestead (E)",
+    "name": "Wailua Homestead",
+    "notes": "Covers most of Lihue and Kapaa areas. Echolink",
+    "offset": "+",
+    "sponsor": "W7KWS"
+  },
+  {
+    "call": "NH6FJ",
+    "frequency": 147.04,
+    "linked": false,
+    "location": "Lihue (E)",
+    "name": "RACES",
+    "notes": "Linked to all Hawaiian Islands",
+    "offset": "+",
+    "sponsor": "RACES"
+  },
+  {
+    "frequency": 147.55,
+    "linked": false,
+    "location": "Lihue (E)",
+    "name": "IRLP Simplex",
+    "notes": "You might hear the IRLP side & not the local Ham"
+  },
+  {
+    "frequency": 449.25,
+    "linked": false,
+    "location": "Lihue, Wilcox Hospital (E)",
+    "name": "Wilcox Hospital",
+    "offset": "-"
+  },
+  {
+    "frequency": 444.175,
+    "linked": false,
+    "location": "Below Kalaheo (SW)",
+    "name": "Lawai",
+    "offset": "+"
+  }
+]

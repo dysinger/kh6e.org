@@ -1,0 +1,123 @@
+[
+  {
+    "frequency": 146.415,
+    "name": "ALFA",
+    "use": "Alternate for Koloa"
+  },
+  {
+    "frequency": 146.43,
+    "name": "BRAVO",
+    "use": "KAWAIHAU DISTRICT"
+  },
+  {
+    "frequency": 146.445,
+    "name": "CHARLIE",
+    "use": "WAIMEA DISTRICT"
+  },
+  {
+    "frequency": 146.46,
+    "name": "DELTA"
+  },
+  {
+    "frequency": 146.475,
+    "name": "ECHO",
+    "use": "LIHUE DISTRICT"
+  },
+  {
+    "frequency": 146.49,
+    "name": "FOXTROT"
+  },
+  {
+    "frequency": 146.505,
+    "name": "GOLF",
+    "use": "Do Not Use"
+  },
+  {
+    "frequency": 146.52,
+    "name": "HOTEL",
+    "use": "National Calling Frequency"
+  },
+  {
+    "frequency": 146.535,
+    "name": "INDIA",
+    "use": "Do Not Use"
+  },
+  {
+    "frequency": 146.55,
+    "name": "JULIET",
+    "use": "ARRL ARES   Kaua‘i NCS"
+  },
+  {
+    "frequency": 146.565,
+    "name": "KILO",
+    "use": "Alternate for Hanalei"
+  },
+  {
+    "frequency": 146.58,
+    "name": "LIMA"
+  },
+  {
+    "frequency": 146.595,
+    "name": "MIKE",
+    "use": "Message channel under NCS control"
+  },
+  {
+    "frequency": 147.42,
+    "name": "NOVEMBER",
+    "use": "American Red Cross"
+  },
+  {
+    "frequency": 147.435,
+    "name": "OSCAR",
+    "use": "Do Not Use"
+  },
+  {
+    "frequency": 147.45,
+    "name": "PAPA",
+    "use": "National Weather Service / SKYWARN"
+  },
+  {
+    "frequency": 147.465,
+    "name": "QUEBEC"
+  },
+  {
+    "frequency": 147.48,
+    "name": "ROMEO",
+    "use": "KOLOA DISTRICT"
+  },
+  {
+    "frequency": 147.495,
+    "name": "SIERRA",
+    "use": "Alternate for Kawaihau"
+  },
+  {
+    "frequency": 147.51,
+    "name": "TANGO",
+    "use": "Alternate for Lihue"
+  },
+  {
+    "frequency": 147.525,
+    "name": "UNIFORM",
+    "use": "HANALEI DISTRICT"
+  },
+  {
+    "frequency": 147.54,
+    "name": "VICTOR",
+    "use": "DO NOT USE (Simplex IRLP Repeater on 147.55 MHz)"
+  },
+  {
+    "frequency": 147.555,
+    "name": "WHISKEY",
+    "use": "DO NOT USE (Simplex IRLP Repeater on 147.55 MHz)"
+  },
+  {
+    "frequency": 147.57,
+    "name": "XRAY",
+    "use": "Search and Rescue"
+  },
+  {
+    "frequency": 147.585,
+    "name": "YANKEE",
+    "use": "Alternate for Waimea"
+  }
+]

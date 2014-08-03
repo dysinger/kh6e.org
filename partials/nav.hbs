@@ -11,6 +11,9 @@
     </div>
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <ul class="nav navbar-nav nav-pills navbar-right">
+        <li{{#is basename "info"}} class="active"{{/is}}>
+          <a href="{{relative dest 'info.html'}}">Info</a>
+        </li>
         <li{{#is basename "socialize"}} class="active"{{/is}}>
           <a href="{{relative dest 'socialize.html'}}">Socialize</a>
         </li>
