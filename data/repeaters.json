@@ -55,16 +55,6 @@
     "sponsor": "W7KWS"
   },
   {
-    "call": "NH6FJ",
-    "frequency": 147.04,
-    "linked": false,
-    "location": "Lihue (E)",
-    "name": "RACES",
-    "notes": "Linked to all Hawaiian Islands",
-    "offset": "+",
-    "sponsor": "RACES"
-  },
-  {
     "frequency": 147.55,
     "linked": false,
     "location": "Lihue (E)",
