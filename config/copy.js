@@ -37,6 +37,12 @@ module.exports = {
     ]
   },
 
+  data: {
+    src: ["data/**/*.json"],
+    dest: "dist/assets/",
+    expand: true
+  },
+
   site: {
     src: ["js/**", "img/**", "doc/**"],
     dest: "dist/assets/",

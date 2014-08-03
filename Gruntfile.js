@@ -18,8 +18,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask("build", [
     "psc:lib", "dotPsci",
-    "assemble", "less",
-    "copy:bower", "copy:site"
+    "assemble", "less", "copy"
   ]);
 
   grunt.registerTask("test",    [ "psc:tests", "execute:tests" ]);
