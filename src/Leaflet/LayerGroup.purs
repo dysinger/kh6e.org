@@ -9,7 +9,7 @@ foreign import layerGroupToILayer
   \}" :: LayerGroup -> ILayer
 
 foreign import addLayerGroupToMap
-  "function addTo(l) {\
+  "function addLayerGroupToMap(l) {\
   \  return function(m) {\
   \    return function() {\
   \      return l.addTo(m);\

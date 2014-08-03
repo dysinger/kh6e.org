@@ -9,7 +9,7 @@ foreign import tileLayerToILayer
   \}" :: TileLayer -> ILayer
 
 foreign import addTileLayerToMap
-  "function addTo(l) {\
+  "function addToTileLayerToMap(l) {\
   \  return function(m) {\
   \    return function() {\
   \      return l.addTo(m);\

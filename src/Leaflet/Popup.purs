@@ -8,9 +8,8 @@ foreign import popupToILayer
   \  return l;\
   \}" :: Popup -> ILayer
 
-
 foreign import addPopupToMap
-  "function addTo(l) {\
+  "function addPopupToMap(l) {\
   \  return function(m) {\
   \    return function() {\
   \      return l.addTo(m);\

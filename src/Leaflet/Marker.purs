@@ -9,7 +9,7 @@ foreign import markerToILayer
   \}" :: Marker -> ILayer
 
 foreign import addMarkerToMap
-  "function addTo(l) {\
+  "function addMarkerToMap(l) {\
   \  return function(m) {\
   \    return function() {\
   \      return l.addTo(m);\
