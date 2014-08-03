@@ -16,7 +16,8 @@
   },
   {
     "frequency": 146.46,
-    "name": "DELTA"
+    "name": "DELTA",
+    "use": "Digital Communications"
   },
   {
     "frequency": 146.475,
