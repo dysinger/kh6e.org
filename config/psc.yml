@@ -11,6 +11,6 @@ tests:
     main: true
   src:
   - "tests/**/*.purs"
-  - "src/*/**/*.purs"
+  - "src/**/*.purs"
   - "bower_components/purescript-*/src/**/*.purs"
   dest: tmp/test.js
