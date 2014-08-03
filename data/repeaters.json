@@ -45,16 +45,6 @@
     "sponsor": "GTE"
   },
   {
-    "call": "KH6KWS",
-    "frequency": 147.34,
-    "linked": false,
-    "location": "Wailua Homestead (E)",
-    "name": "Wailua Homestead",
-    "notes": "Covers most of Lihue and Kapaa areas. Echolink",
-    "offset": "+",
-    "sponsor": "W7KWS"
-  },
-  {
     "frequency": 147.55,
     "linked": false,
     "location": "Lihue (E)",
