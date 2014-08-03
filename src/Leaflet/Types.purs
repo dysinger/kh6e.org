@@ -1,5 +1,7 @@
 module Leaflet.Types where
 
+import Control.Monad.Eff
+
 type URL = String
 
 foreign import data ILayer :: *
@@ -14,6 +16,7 @@ foreign import data TileLayer :: *
 
 class Layer a where
   toILayer :: a -> ILayer
+  addTo :: forall e. a -> Map -> Eff e a
 
 type MapOptions = { attributionControl :: Boolean,
                     center :: LatLng,

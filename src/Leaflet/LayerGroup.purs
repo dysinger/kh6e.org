@@ -1,5 +1,6 @@
 module Leaflet.LayerGroup where
 
+import Control.Monad.Eff
 import Leaflet.Types
 
 foreign import layerGroupToILayer
@@ -7,8 +8,19 @@ foreign import layerGroupToILayer
   \  return l;\
   \}" :: LayerGroup -> ILayer
 
+foreign import addLayerGroupToMap
+  "function addTo(l) {\
+  \  return function(m) {\
+  \    return function() {\
+  \      return l.addTo(m);\
+  \    }\
+  \  }\
+  \}"
+  :: forall e. LayerGroup -> Map -> Eff e LayerGroup
+
 instance layerGroupLayer :: Layer LayerGroup where
   toILayer = layerGroupToILayer
+  addTo = addLayerGroupToMap
 
 foreign import layerGroup
   "function layerGroup(ls) {\

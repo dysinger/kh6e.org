@@ -8,8 +8,19 @@ foreign import tileLayerToILayer
   \  return l;\
   \}" :: TileLayer -> ILayer
 
+foreign import addTileLayerToMap
+  "function addTo(l) {\
+  \  return function(m) {\
+  \    return function() {\
+  \      return l.addTo(m);\
+  \    }\
+  \  }\
+  \}"
+  :: forall e. TileLayer -> Map -> Eff e TileLayer
+
 instance tileLayerLayer :: Layer TileLayer where
   toILayer = tileLayerToILayer
+  addTo = addTileLayerToMap
 
 foreign import tileLayer
   "function tileLayer(u) {\

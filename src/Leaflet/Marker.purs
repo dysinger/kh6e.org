@@ -8,8 +8,19 @@ foreign import markerToILayer
   \  return l;\
   \}" :: Marker -> ILayer
 
+foreign import addMarkerToMap
+  "function addTo(l) {\
+  \  return function(m) {\
+  \    return function() {\
+  \      return l.addTo(m);\
+  \    }\
+  \  }\
+  \}"
+  :: forall e. Marker -> Map -> Eff e Marker
+
 instance markerLayer :: Layer Marker where
   toILayer = markerToILayer
+  addTo = addMarkerToMap
 
 foreign import marker
   "function marker(o) {\
