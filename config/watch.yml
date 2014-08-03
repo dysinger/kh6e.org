@@ -1,0 +1,21 @@
+ps:
+  files:
+  - "**/*.purs"
+  tasks:
+  - psc
+
+assemble:
+  files:
+  - "{,*/}*.{md,hbs,yml,less,js}"
+  tasks:
+  - "assemble"
+  - "copy"
+
+livereload:
+  options:
+    livereload: 35729
+  files:
+  - "dist/{,*/}*.html"
+  - "dist/assets/{,*/}*.css"
+  - "dist/assets/{,*/}*.js"
+  - "dist/assets/{,*/}*.{png,jpg,jpeg,gif,webp,svg}"

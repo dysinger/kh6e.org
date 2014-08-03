@@ -1,0 +1,6 @@
+options:
+  verify: true
+site:
+  sync:
+  - src: "dist/**"
+    rel: dist/
