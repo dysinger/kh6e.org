@@ -19,6 +19,7 @@ module KH6E where
 
 import           Control.Monad.Eff
 import           Data.Array
+import           Leaflet.Control.Layers
 import           Leaflet.Icon
 import           Leaflet.LatLng
 import           Leaflet.LatLngBounds
@@ -87,7 +88,8 @@ zoomByWidth n = if n > 768 then 11 else 10
 
 kauaiMap :: forall e. Eff e Map
 kauaiMap = do
-  map <- streetMap
+  streets <- streetMap
+  topo <- topoMap
   repeaters <- karcRepeaters
   places <- karcMeetingPlaces
   let centerOfKauai = latLng 22.032822 (-159.535493)
@@ -95,8 +97,13 @@ kauaiMap = do
       cornerKauaiNE = latLng 22.263536 (-159.214770)
   bounds <- pad 0.5 $ latLngBounds cornerKauaiSE cornerKauaiNE
   width <- windowWidth
-  createMap "map" { attributionControl: false,
-                    center: centerOfKauai,
-                    layers: [ map, repeaters, places ],
-                    maxBounds: bounds,
-                    zoom: zoomByWidth width }
+  map <- createMap "map" { attributionControl: false,
+                           center: centerOfKauai,
+                           layers: [ streets, repeaters, places ],
+                           maxBounds: bounds,
+                           zoom: zoomByWidth width }
+  let lc = layersControl
+           ({ streets: streets, topo: topo })
+           ({ repeaters: repeaters, places: places })
+  addLayersControlToMap lc map
+  return map

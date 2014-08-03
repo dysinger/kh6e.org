@@ -8,6 +8,7 @@ foreign import data ILayer :: *
 foreign import data Icon :: *
 foreign import data LatLng :: *
 foreign import data LatLngBounds :: *
+foreign import data LayersControl :: *
 foreign import data LayerGroup :: *
 foreign import data Map :: *
 foreign import data Marker :: *
@@ -29,3 +30,5 @@ type TileLayerOptions = { subdomains :: [String] }
 type MarkerOptions = { icon :: Icon }
 
 type PopupOptions = {}
+
+type LayersControlOptions = {}
