@@ -1,4 +1,4 @@
-# Repeaters
+# Kauai Repeaters
 
 {{> repeaters }}
 
