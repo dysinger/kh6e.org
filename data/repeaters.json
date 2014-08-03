@@ -45,13 +45,6 @@
     "sponsor": "GTE"
   },
   {
-    "frequency": 147.55,
-    "linked": false,
-    "location": "Lihue (E)",
-    "name": "IRLP Simplex",
-    "notes": "You might hear the IRLP side & not the local Ham"
-  },
-  {
     "frequency": 449.25,
     "linked": false,
     "location": "Lihue, Wilcox Hospital (E)",
