@@ -1,4 +1,4 @@
-# Kauai Repeaters
+# Kaua'i Repeaters
 
 <table class="table table-striped table-bordered table-hover table-condensed">
   <thead>

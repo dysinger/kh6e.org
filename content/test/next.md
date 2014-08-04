@@ -1,4 +1,4 @@
-# FCC License Exams on Kauai
+# FCC License Exams on Kaua'i
 
 An Amateur Radio license exam session will be administered by
 Volunteer Examiners on Kaua`i about every three months. The date of
@@ -7,7 +7,7 @@ the next study session and license exams will be Saturday, Sept
 
 The test will be held in the KIUC meeting room.
 
-Kauai Island Utility Cooperative
+Kaua'i Island Utility Cooperative
 
 4463 Pahe'e Street, Suite 1
 

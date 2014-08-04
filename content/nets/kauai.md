@@ -1,6 +1,6 @@
-# Kauai Island Nets
+# Kaua'i Island Nets
 
-We have several regular nets on Kauai.  The purpose of the nets is to
+We have several regular nets on Kaua'i.  The purpose of the nets is to
 give us a chance to regularly practice our technique and test our
 equipment. The local net list is as follows:
 
