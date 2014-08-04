@@ -13,8 +13,8 @@ provide when disaster strikes.
 All interested visitors are invited to attend our
 [monthly club meetings and other functions]({{relative to
 'info.html'}}).  Licensed hams are also encouraged to participate in
-our regular on our [regular nets]({{relative to 'info.html'}}).  The
-Club also participates in a [Saturday Morning Breakfast]({{relative to
+our [regular nets]({{relative to 'info.html'}}).  The Club also
+participates in a [Saturday Morning Breakfast]({{relative to
 'socialize.html'}}).  We eagerly invite any visitors to join us to
 “Talk Story”.  Spouses and families are also welcome.
 
