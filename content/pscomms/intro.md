@@ -1,4 +1,3 @@
-# Public Service Communications
+# Public Service Comms
 
-_(A few words on how it works, what it's for & why people want to
-participate)_
+Public Service Communications (aka PS Comms).
