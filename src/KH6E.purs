@@ -71,7 +71,7 @@ karcMeetingPlaces = do
   civic <- bindPopup "Kauai Civic Center<br>(Planning Room 2A/2B)" {}
            $ marker { icon: blueInstitutionIcon }
            $ latLng 21.975795 (-159.369375)
-  kiuc  <- bindPopup "Kauai Islang Utility Coop<br>Suite 1" {}
+  kiuc  <- bindPopup "Kauai Island Utility Coop<br>Suite 1" {}
            $ marker { icon: blueFlashIcon }
            $ latLng 21.970248 (-159.384513)
   fpig  <- bindPopup "The Feral Pig" {}
