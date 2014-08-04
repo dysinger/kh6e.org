@@ -103,13 +103,11 @@
   },
   {
     "frequency": 147.54,
-    "name": "VICTOR",
-    "use": "DO NOT USE (Simplex IRLP Repeater on 147.55 MHz)"
+    "name": "VICTOR"
   },
   {
     "frequency": 147.555,
-    "name": "WHISKEY",
-    "use": "DO NOT USE (Simplex IRLP Repeater on 147.55 MHz)"
+    "name": "WHISKEY"
   },
   {
     "frequency": 147.57,
