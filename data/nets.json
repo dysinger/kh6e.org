@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Monday Night Net",
+    "when": "Every Monday (except 1st per month) at 20:00"
+  },
+  {
+    "name": "Public Service Communications",
+    "when": "Each Thursday at 19:00"
+  },
+  {
+    "name": "Siren Net",
+    "when": "The 1st day of each month at 11:45"
+  }
+]

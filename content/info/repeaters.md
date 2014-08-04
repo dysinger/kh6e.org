@@ -1,6 +1,29 @@
 # Kauai Repeaters
 
-{{> repeaters }}
+<table class="table table-striped table-bordered table-hover table-condensed">
+  <thead>
+    <tr>
+      <th>Linked</th>
+      <th>Name</th>
+      <th>Frequency</th>
+      <th>Offset</th>
+    </tr>
+  </thead>
+  <tbody>
+{{#each repeaters}}
+    <tr>
+      <td>
+{{#if linked}}
+        <i class="fa fa-check"/>
+{{/if}}
+      </td>
+      <td>{{name}}</td>
+      <td>{{frequency}} MHz</td>
+      <td>{{offset}}</td>
+    </tr>
+{{/each}}
+  </tbody>
+</table>
 
 ###Notes:
 * Tones are not used on any Kaua'i repeaters.
