@@ -118,5 +118,10 @@
     "frequency": 147.585,
     "name": "YANKEE",
     "use": "Alternate for Waimea"
+  },
+  {
+    "frequency": 446,
+    "name": "ZULU",
+    "use": "National UHF Calling Frequency"
   }
 ]
