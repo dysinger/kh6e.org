@@ -1,13 +1,36 @@
-# kh6e.org
+# Kaua'i Amateur Radio Club (KH6E) Website
 
-Kauai Amateur Radio Club (KH6E) Website
+This is the website of the Kaua'i Ham Radio Club currently located at
+[kh6e.org](http://kh6e.org)
 
-### Status
-[![Build Status](https://travis-ci.org/simkimsia/UtilityBehaviors.png)](https://travis-ci.org/simkimsia/UtilityBehaviors)
+# Build
+
+[![Build Status](https://travis-ci.org/dysinger/kh6e.org.png)](https://travis-ci.org/dysinger/kh6e.org)
+
+## PREREQUISITES
+
+* [GNU Make](https://www.gnu.org/software/make/)
+* [Node.js](http://nodejs.org/) & [NPM](https://github.com/npm/npm)
+
+### BUILD
+
+    make
+
+### TEST
+
+    make test
+
+### DEV WORK
+
+    make dev
+
+### DEPLOY
+
+    make deploy
 
 # LICENSE
 
-Copyright (C) 2014 Tim Dysinger
+Copyright (C) 2014 Tim Dysinger & Kaua'i Ham Radio Club
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
