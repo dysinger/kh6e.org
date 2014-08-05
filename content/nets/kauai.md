@@ -7,7 +7,7 @@ equipment. The local net list is as follows:
 <table class="table table-striped table-bordered table-hover table-condensed">
   <thead>
     <tr>
-      <th>Name</th>
+      <th>What</th>
       <th>When</th>
     </tr>
   </thead>
