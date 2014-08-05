@@ -16,7 +16,7 @@
 body {
     overflow-x: hidden;
     .body-font;
-    background-color: @gray-lighter;
+    background-color: @ps-bg;
     webkit-tap-highlight-color: @brand-primary;
 }
 
@@ -79,7 +79,7 @@ p {
 
 div#map {
     position: absolute;
-    top: 70px; // TODO USE NAVBAR HEIGHT VARIABLE
+    top: @navbar-height + @navbar-padding-vertical;
     left: 0;
     bottom: 0;
     width: 100%;
