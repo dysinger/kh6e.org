@@ -6,9 +6,6 @@
   "bugs": {
     "url": "https://github.com/dysinger/kh6e/issues"
   },
-  "dependencies": {
-    "underscore": "*"
-  },
   "description": "Kauai Ham Radio Club.",
   "devDependencies": {
     "assemble": "*",
