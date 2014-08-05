@@ -3,28 +3,31 @@
 This is the website of the Kaua'i Ham Radio Club currently located at
 [kh6e.org](http://kh6e.org)
 
-# Build
-
+Build Status
 [![Build Status](https://travis-ci.org/dysinger/kh6e.org.png)](https://travis-ci.org/dysinger/kh6e.org)
 
-## PREREQUISITES
+# Build the Website
+
+## Prerequisites To Build
 
 * [GNU Make](https://www.gnu.org/software/make/)
 * [Node.js](http://nodejs.org/) & [NPM](https://github.com/npm/npm)
 
-### BUILD
+## Build the Website
 
     make
 
-### TEST
+## Test the Website
+
+Test
 
     make test
 
-### DEV WORK
+[Local Website for Development](http://0.0.0.0:9000)
 
     make dev
 
-### DEPLOY
+## Deploy the Website
 
     make deploy
 
