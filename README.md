@@ -1,10 +1,12 @@
-kh6e.org
-========
+# kh6e.org
 
 Kauai Amateur Radio Club (KH6E) Website
 
-LICENSE
-=======
+### Status
+[![Build Status](https://travis-ci.org/simkimsia/UtilityBehaviors.png)](https://travis-ci.org/simkimsia/UtilityBehaviors)
+
+# LICENSE
+
 Copyright (C) 2014 Tim Dysinger
 
 This program is free software: you can redistribute it and/or modify
