@@ -8,28 +8,32 @@ Build Status
 
 # Build the Website
 
-## Prerequisites To Build
+You need the following software on your computer in order to build &
+test the website.
 
 * [GNU Make](https://www.gnu.org/software/make/)
 * [Node.js](http://nodejs.org/) & [NPM](https://github.com/npm/npm)
 
-## Build the Website
+## Build the Full Website
 
     make
 
-## Test the Website
-
-Test
+## Test the Website Code
 
     make test
 
-[Local Website for Development](http://0.0.0.0:9000)
+## Run a Local Preview Website
 
     make dev
 
-## Deploy the Website
+## Deploy the Website to S3
 
     make deploy
+
+## Clean the Website (Optional)
+
+    make clean
+    make distclean
 
 # LICENSE
 
