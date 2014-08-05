@@ -4,4 +4,21 @@ Use the assigned frequency to communicate on simplex within your
 district.  Only use a neighboring district's channel to pass a
 message in between districts.
 
-{{> simplex }}
+<table class="table table-striped table-bordered table-hover table-condensed">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Frequency</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each simplex}}
+    <tr>
+      <td>{{name}}</td>
+      <td>{{frequency}} MHz</td>
+      <td>{{use}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
