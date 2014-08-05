@@ -3,10 +3,9 @@
 This is the website of the Kaua'i Ham Radio Club currently located at
 [kh6e.org](http://kh6e.org)
 
-Build Status
-[![Build Status](https://travis-ci.org/dysinger/kh6e.org.png)](https://travis-ci.org/dysinger/kh6e.org)
-
 # Build the Website
+
+[![Build Status](https://travis-ci.org/dysinger/kh6e.org.png)](https://travis-ci.org/dysinger/kh6e.org)
 
 You need the following software on your computer in order to build &
 test the website.
