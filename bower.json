@@ -3,7 +3,6 @@
     "L.GeoSearch": "*",
     "Leaflet.awesome-markers": "*",
     "bootstrap": "*",
-    "classie": "*",
     "font-awesome": "*",
     "html5shiv": "*",
     "jquery": "*",
