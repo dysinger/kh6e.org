@@ -11,65 +11,24 @@
 }
 
 body {
-    overflow-x: hidden;
-    background-color: @ps-bg;
-    webkit-tap-highlight-color: @brand-primary;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .navbar-default {
-    background-color: @ps-nav-bg;
-    padding: 10px 0;
     .navbar-brand {
+        .brand-font;
         color: @brand-primary;
         font-size: 1.5em;
-        .script-font;
-        &:hover,
-        &:focus,
-        &:active,
-        &.active {
-            color: white;
-        }
     }
-    .nav {
-        li {
-            a {
-                .heading-font;
-                font-weight: 400;
-                letter-spacing: 1px;
-                color: white;
-                &:hover,
-                &:focus {
-                    color: @brand-primary;
-                    outline: none;
-                }
-            }
-        }
-    }
-    .navbar-nav>.active>a,
-    .navbar-nav>.active>a:hover,
-    .navbar-nav>.active>a:focus {
-        color: white;
-        background-color: darken(@brand-primary, 10%);
-    }
-}
-
-footer {
-    margin-bottom: 10px;
-}
-
-@media(min-width:768px) {
-    footer {
-        margin-bottom: 40px;
+    .nav>li>a {
+        .heading-font
     }
 }
 
 h1, h2, h3, h4, h5, h6 {
-    .heading-font;
-    font-weight: 700;
+    .heading-font
 }
 
-p {
-    font-size: 14px;
-    line-height: 1.75;
+table {
+    font-family: 'Source Code Pro', ;
 }

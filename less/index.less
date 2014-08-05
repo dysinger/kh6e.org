@@ -13,8 +13,8 @@ header#splash {
     background-attachment: scroll;
     background-position: center center;
     .background-cover;
-    text-align: center;
     color: white;
+    text-align: center;
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
@@ -68,7 +68,6 @@ header#splash {
         -webkit-transition: padding 0.3s;
         transition: padding 0.3s;
         .navbar-brand {
-            color: darken(@brand-primary, 15%);
             font-size: 2em;
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
@@ -77,16 +76,9 @@ header#splash {
     }
     .navbar-default.navbar-shrink {
         background-color: @navbar-default-bg;
-        padding: 10px 0;
+        padding: 0 0;
         .navbar-brand {
-            color: @brand-primary;
             font-size: 1.5em;
-            &:hover,
-            &:focus,
-            &:active,
-            &.active {
-                color: white;
-            }
         }
     }
 }
