@@ -6,45 +6,45 @@ bower:
     dest: dist/assets/L.GeoSearch/
     expand: true
   - cwd: bower_components/Leaflet.awesome-markers/dist/
-    src: 
+    src:
     - "**"
     dest: dist/assets/Leaflet.awesome-markers/
     expand: true
   - cwd: bower_components/bootstrap/dist/
-    src: 
+    src:
     - "fonts/**"
     - "js/**"
     dest: dist/assets/bootstrap/
     expand: true
   - cwd: bower_components/font-awesome/
-    src: 
+    src:
     - "**/*.{css,eot,js,map,svg,ttf,woff}"
     dest: dist/assets/font-awesome/
     expand: true
   - cwd: bower_components/html5shiv/dist/
-    src: 
+    src:
     - "**"
     dest: dist/assets/html5shiv/
     expand: true
   - cwd: bower_components/jquery/dist/
-    src: 
+    src:
     - "**"
     dest: dist/assets/jquery/
     expand: true
   - cwd: bower_components/leaflet/dist/
-    src: 
+    src:
     - "**"
     dest: dist/assets/leaflet/
     expand: true
 
 data:
-  src: 
+  src:
   - "data/**/*.json"
   dest: dist/assets/
   expand: true
 
 site:
-  src: 
+  src:
   - "js/**"
   - "img/**"
   - "doc/**"
