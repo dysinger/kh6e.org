@@ -6,6 +6,7 @@ options:
   partials: "partials/{,*/}*.hbs"
   plugins:
   - assemble-contrib-permalinks
+  - assemble-contrib-sitemap
   flatten: true
 
 site:

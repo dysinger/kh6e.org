@@ -12,6 +12,7 @@
   "description": "Kauai Ham Radio Club.",
   "devDependencies": {
     "assemble": "*",
+    "assemble-contrib-sitemap": "*",
     "assemble-less": "*",
     "assemble-middleware-permalinks": "*",
     "bower": "*",
