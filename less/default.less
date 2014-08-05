@@ -1,7 +1,34 @@
 /* -*- mode: css; -*- */
 
-@import "common.less";
+@import "variables.less";
+
+.brand-font() {
+    font-family: 'Merienda', cursive;
+}
+
+.heading-font() {
+    text-transform: uppercase;
+}
 
 body {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-top: @navbar-height;
+}
+
+.navbar {
+    .navbar-brand {
+        .brand-font;
+        font-size: 1.5em;
+    }
+    .nav>li>a {
+        .heading-font
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    .heading-font
+}
+
+table {
+    font-family: 'Source Code Pro', ;
 }
