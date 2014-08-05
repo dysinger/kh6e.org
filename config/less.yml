@@ -1,5 +1,7 @@
 styles:
   files:
+    dist/assets/css/bootstrap.css:
+    - "less/bootstrap.less"
     dist/assets/css/default.css:
     - "less/default.less"
     dist/assets/css/index.css:
