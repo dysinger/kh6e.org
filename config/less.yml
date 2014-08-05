@@ -1,7 +1,8 @@
 styles:
   files:
-    dist/assets/css/bootstrap.css:
-    - "less/bootstrap.less"
+    dist/assets/bootstrap/css/bootstrap.css:
+    - "bower_components/bootstrap/less/bootstrap.less"
+    - "less/variables.less"
     dist/assets/css/site.css:
     - "less/body.less"
     - "less/bootstrap.less"
