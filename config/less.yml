@@ -3,4 +3,11 @@ styles:
     dist/assets/css/bootstrap.css:
     - "less/bootstrap.less"
     dist/assets/css/site.css:
-    - "less/site.less"
+    - "less/body.less"
+    - "less/bootstrap.less"
+    - "less/footer.less"
+    - "less/header.less"
+    - "less/heading.less"
+    - "less/map.less"
+    - "less/nav.less"
+    - "less/table.less"
