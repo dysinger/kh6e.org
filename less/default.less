@@ -1,28 +1,13 @@
 /* -*- mode: css; -*- */
 
 @import "variables.less";
-
-.brand-font() {
-    font-family: 'Merienda', cursive;
-}
-
-.heading-font() {
-    text-transform: uppercase;
-}
+@import "fonts.less";
+@import "nav.less";
+@import "header.less";
 
 body {
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    .body-font;
     padding-top: @navbar-height;
-}
-
-.navbar {
-    .navbar-brand {
-        .brand-font;
-        font-size: 1.5em;
-    }
-    .nav>li>a {
-        .heading-font
-    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,5 +15,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 table {
-    font-family: 'Source Code Pro', ;
+    .data-font;
 }
