@@ -4,3 +4,5 @@ styles:
     - "less/default.less"
     dist/assets/css/index.css:
     - "less/index.less"
+    dist/assets/css/map.css:
+    - "less/map.less"
