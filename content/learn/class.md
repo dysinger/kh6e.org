@@ -1,5 +1,3 @@
-# Tad's Introduction to New Hams Class
+# Introduction to Amateur Radio Class
 
-A few weeks after the tests are given, Tad gives a class for new hams.
-_(We should put a few more words here on what's covered and why new
-hams want to go)_
+The Kauai Amateur Radio Club holds a free Introductory to Amateur Radio training for newly licensed amateur radio operators several weeks after each FCC license exam.  The training covers the proper use of amateur radio, what the equipment cost, where to purchase it, frequencies, etiquette and safety.  Reservations are required to insure adequate materials are available.  Please contact Tad Miura at ZSSQ@Hotmail.Com for information about the class.
