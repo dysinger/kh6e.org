@@ -9,6 +9,6 @@
   },
   {
     "name": "Siren Net",
-    "when": "The 1st weekday of the month at 11:45 HST"
+    "when": "The 1st working day of the month at 11:45 HST"
   }
 ]
