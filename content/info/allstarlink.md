@@ -9,10 +9,10 @@ are viewable on the
   <thead>
     <tr>
       <th>Location</th>
-      <th>Call Sign</th>
-      <th>Frequency</th>
+      <th>Call</th>
+      <th>Freq</th>
       <th>Type</th>
-      <th>PL Tone</th>
+      <th>Tone</th>
     </tr>
   </thead>
   <tbody>
