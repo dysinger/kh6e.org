@@ -1,126 +1,126 @@
 [
   {
-    "frequency": 146.415,
+    "frequency": "146.415",
     "name": "ALFA",
     "use": "Alternate for Koloa"
   },
   {
-    "frequency": 146.43,
+    "frequency": "146.430",
     "name": "BRAVO",
     "use": "KAWAIHAU DISTRICT"
   },
   {
-    "frequency": 146.445,
+    "frequency": "146.445",
     "name": "CHARLIE",
     "use": "WAIMEA DISTRICT"
   },
   {
-    "frequency": 146.46,
+    "frequency": "146.460",
     "name": "DETLA",
     "use": "Digital (Fldigi) Communications"
   },
   {
-    "frequency": 146.475,
+    "frequency": "146.475",
     "name": "ECHO",
     "use": "LIHUE DISTRICT"
   },
   {
-    "frequency": 146.49,
+    "frequency": "146.490",
     "name": "FOXTROT"
   },
   {
-    "frequency": 146.505,
+    "frequency": "146.505",
     "name": "GOLF",
     "use": "Do Not Use"
   },
   {
-    "frequency": 146.52,
+    "frequency": "146.520",
     "name": "HOTEL",
     "use": "National Calling Frequency"
   },
   {
-    "frequency": 146.535,
+    "frequency": "146.535",
     "name": "INDIA",
     "use": "Do Not Use"
   },
   {
-    "frequency": 146.55,
+    "frequency": "146.550",
     "name": "JULIET",
     "use": "ARRL ARES   Kaua‘i NCS"
   },
   {
-    "frequency": 146.565,
+    "frequency": "146.565",
     "name": "KILO",
     "use": "Alternate for Hanalei"
   },
   {
-    "frequency": 146.58,
+    "frequency": "146.580",
     "name": "LIMA"
   },
   {
-    "frequency": 146.595,
+    "frequency": "146.595",
     "name": "MIKE",
     "use": "Message channel under NCS control"
   },
   {
-    "frequency": 147.42,
+    "frequency": "147.420",
     "name": "NOVEMBER",
     "use": "American Red Cross"
   },
   {
-    "frequency": 147.435,
+    "frequency": "147.435",
     "name": "OSCAR",
     "use": "Do Not Use"
   },
   {
-    "frequency": 147.45,
+    "frequency": "147.450",
     "name": "PAPA",
     "use": "National Weather Service / SKYWARN"
   },
   {
-    "frequency": 147.465,
+    "frequency": "147.465",
     "name": "QUEBEC"
   },
   {
-    "frequency": 147.48,
+    "frequency": "147.480",
     "name": "ROMEO",
     "use": "KOLOA DISTRICT"
   },
   {
-    "frequency": 147.495,
+    "frequency": "147.495",
     "name": "SIERRA",
     "use": "Alternate for Kawaihau"
   },
   {
-    "frequency": 147.51,
+    "frequency": "147.510",
     "name": "TANGO",
     "use": "Alternate for Lihue"
   },
   {
-    "frequency": 147.525,
+    "frequency": "147.525",
     "name": "UNIFORM",
     "use": "HANALEI DISTRICT"
   },
   {
-    "frequency": 147.54,
+    "frequency": "147.540",
     "name": "VICTOR"
   },
   {
-    "frequency": 147.555,
+    "frequency": "147.555",
     "name": "WHISKEY"
   },
   {
-    "frequency": 147.57,
+    "frequency": "147.570",
     "name": "XRAY",
     "use": "Search and Rescue"
   },
   {
-    "frequency": 147.585,
+    "frequency": "147.585",
     "name": "YANKEE",
     "use": "Alternate for Waimea"
   },
   {
-    "frequency": 446,
+    "frequency": "446.000",
     "name": "ZULU",
     "use": "National UHF Calling Frequency"
   }

@@ -1,7 +1,7 @@
 [
   {
     "call": "KH6E",
-    "frequency": 146.92,
+    "frequency": "146.920",
     "linked": true,
     "location": "Above Kalaheo (SW)",
     "name": "Mt Kahili",
@@ -10,7 +10,7 @@
   },
   {
     "call": "KH6E",
-    "frequency": 146.7,
+    "frequency": "146.700",
     "linked": true,
     "location": "Kilauea (N)",
     "name": "Crater Hill",
@@ -19,7 +19,7 @@
   },
   {
     "call": "KH6E",
-    "frequency": 147.1,
+    "frequency": "147.100",
     "linked": false,
     "location": "Hwy to Kokee (W)",
     "name": "Waimea Canyon",
@@ -28,7 +28,7 @@
   },
   {
     "call": "KH6E",
-    "frequency": 147.08,
+    "frequency": "147.080",
     "linked": true,
     "location": "Lihue, Wilcox Hospital (E)",
     "name": "Wilcox Hospital",
@@ -37,7 +37,7 @@
   },
   {
     "call": "WH6Z",
-    "frequency": 146.66,
+    "frequency": "146.660",
     "linked": false,
     "location": "Hanamaulu, North Lihue on Mt Kalepa (E)",
     "name": "Hanamaulu",
@@ -45,14 +45,14 @@
     "sponsor": "GTE"
   },
   {
-    "frequency": 449.25,
+    "frequency": "449.250",
     "linked": false,
     "location": "Lihue, Wilcox Hospital (E)",
     "name": "Wilcox Hospital",
     "offset": "-"
   },
   {
-    "frequency": 444.175,
+    "frequency": "444.175",
     "linked": false,
     "location": "Below Kalaheo (SW)",
     "name": "Lawai",
