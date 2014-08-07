@@ -8,7 +8,7 @@ are viewable on the
 <table class="table table-striped table-bordered table-hover table-condensed">
   <thead>
     <tr>
-      <th>Location</th>
+      <th>Area</th>
       <th>Call</th>
       <th>Freq</th>
       <th>Type</th>
