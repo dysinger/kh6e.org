@@ -1,0 +1,30 @@
+[
+  {
+    "location": "Kalaheo",
+    "call": "KH6S",
+    "frequency": "444.975",
+    "type": "Repeater",
+    "pl": "100.0"
+  },
+  {
+    "location": "Kalaheo",
+    "call": "NH6HI",
+    "frequency": "145.750",
+    "type": "Simplex",
+    "pl": "100.0"
+  },
+  {
+    "location": "Lihue",
+    "call": "KH6S",
+    "frequency": "444.250",
+    "type": "Repeater",
+    "pl": "100.0"
+  },
+  {
+    "location": "Anahola",
+    "call": "NH7CJ",
+    "frequency": "145.600",
+    "type": "Simplex",
+    "pl": "100.0"
+  }
+]
