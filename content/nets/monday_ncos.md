@@ -1,4 +1,4 @@
-# Monday Night Net NCO Schedule
+# Monday Night Net NCS Schedule
 
 <table class="table table-striped table-bordered table-hover table-condensed">
   <thead>
