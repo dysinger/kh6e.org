@@ -1,6 +1,6 @@
-# Storms
+# Weather
 
-This page will have information about Hurricane Season. We've had
+This page will have information about hurricane season. We've had
 almost a dozen named storms in the Pacific Ocean this year.
 
 * [Earth Wind Map over Hawaii](http://earth.nullschool.net/#current/wind/surface/level/orthographic=-154.05,19.04,889)
