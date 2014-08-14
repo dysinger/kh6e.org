@@ -1,7 +1,7 @@
 # Storms
 
-This page will have information about upcoming hurricane Iselle &
-Julio.
+This page will have information about Hurricane Season. We've had
+almost a dozen named storms in the Pacific Ocean this year.
 
 * [Earth Wind Map over Hawaii](http://earth.nullschool.net/#current/wind/surface/level/orthographic=-154.05,19.04,889)
 * [Kauai Siren Locations](http://www.kauai.gov/Government/Departments/CivilDefenseAgency/KauaiSirenLocations/tabid/78/Default.aspx)
