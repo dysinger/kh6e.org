@@ -7,7 +7,6 @@ message in between districts.
 <table class="table table-striped table-bordered table-hover table-condensed">
   <thead>
     <tr>
-      <th>Name</th>
       <th>Frequency</th>
       <th>Use</th>
     </tr>
@@ -15,7 +14,6 @@ message in between districts.
   <tbody>
     {{#each simplex}}
     <tr>
-      <td>{{name}}</td>
       <td>{{frequency}} MHz</td>
       <td>{{use}}</td>
     </tr>
