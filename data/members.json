@@ -155,6 +155,11 @@
     "first_name": "Sara"
   },
   {
+    "last_name": "Tanizaki",
+    "first_name": "James",
+    "call_sign": "WH6EEK"
+  },
+  {
     "call_sign": "WH6EMD",
     "last_name": "Robeson",
     "first_name": "Scott"
@@ -247,11 +252,6 @@
   {
     "last_name": "Shinn",
     "first_name": "Gerald"
-  },
-  {
-    "last_name": "Tanizaki",
-    "first_name": "James",
-    "call_sign": "WH6EEK"
   },
   {
     "last_name": "Whiteby",
