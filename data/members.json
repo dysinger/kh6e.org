@@ -1,0 +1,251 @@
+[
+  {
+    "call_sign": "AH6NN",
+    "last_name": "Cannon",
+    "first_name": "Ken"
+  },
+  {
+    "call_sign": "AH6QC",
+    "last_name": "Kepiki",
+    "first_name": "Jonathan"
+  },
+  {
+    "call_sign": "AH6TA",
+    "last_name": "Albertson",
+    "first_name": "Elaine"
+  },
+  {
+    "call_sign": "AH6TE",
+    "last_name": "Dysinger",
+    "first_name": "Tim"
+  },
+  {
+    "call_sign": "AH6UA",
+    "last_name": "Harwell",
+    "first_name": "Craig"
+  },
+  {
+    "call_sign": "K4XV",
+    "last_name": "Ellis",
+    "first_name": "Tom"
+  },
+  {
+    "call_sign": "KB7FBM",
+    "last_name": "Tanner",
+    "first_name": "Phillip"
+  },
+  {
+    "call_sign": "KC7HPT",
+    "last_name": "Calhoun",
+    "first_name": "Dave"
+  },
+  {
+    "call_sign": "KC7ITJ",
+    "last_name": "Calhoun",
+    "first_name": "Amber"
+  },
+  {
+    "call_sign": "KF6VI",
+    "last_name": "Gill",
+    "first_name": "John"
+  },
+  {
+    "call_sign": "KH6AS",
+    "last_name": "Anderson",
+    "first_name": "Robert"
+  },
+  {
+    "call_sign": "KH6DO",
+    "last_name": "Olsen",
+    "first_name": "Dick"
+  },
+  {
+    "call_sign": "KH6EZ",
+    "last_name": "Pagaduan",
+    "first_name": "Edward"
+  },
+  {
+    "call_sign": "KH6FGS",
+    "last_name": "Caires",
+    "first_name": "Roger"
+  },
+  {
+    "call_sign": "KH6JMM",
+    "last_name": "Montalbano",
+    "first_name": "John"
+  },
+  {
+    "call_sign": "KH6JPT",
+    "last_name": "Victorino",
+    "first_name": "Ron"
+  },
+  {
+    "call_sign": "KH7RAM",
+    "last_name": "Montalbano",
+    "first_name": "Ruth"
+  },
+  {
+    "call_sign": "NH6JC",
+    "last_name": "Oishi",
+    "first_name": "Mitchell"
+  },
+  {
+    "call_sign": "NH6O",
+    "last_name": "Dorland",
+    "first_name": "Ken"
+  },
+  {
+    "call_sign": "NH7TZ",
+    "last_name": "Goldsmith",
+    "first_name": "Jane"
+  },
+  {
+    "call_sign": "NH7UP",
+    "last_name": "Robertson",
+    "first_name": "Bob"
+  },
+  {
+    "call_sign": "NH7UV",
+    "last_name": "Shinn",
+    "first_name": "Ginny"
+  },
+  {
+    "call_sign": "NH7YQ",
+    "last_name": "Gordon",
+    "first_name": "John"
+  },
+  {
+    "call_sign": "NH7YS",
+    "last_name": "Miura",
+    "first_name": "Tad"
+  },
+  {
+    "call_sign": "NH7ZS",
+    "last_name": "Miura",
+    "first_name": "Caroline"
+  },
+  {
+    "call_sign": "WB9SMM",
+    "last_name": "Leekley",
+    "first_name": "John"
+  },
+  {
+    "call_sign": "WG6CHA",
+    "last_name": "Brown",
+    "first_name": "Dallas"
+  },
+  {
+    "call_sign": "WH6DTV",
+    "last_name": "Etzel",
+    "first_name": "Richard"
+  },
+  {
+    "call_sign": "WH6DZP",
+    "last_name": "Thatcher",
+    "first_name": "Steve"
+  },
+  {
+    "call_sign": "WH6EBU",
+    "last_name": "Dysinger",
+    "first_name": "Sara"
+  },
+  {
+    "call_sign": "WH6EMD",
+    "last_name": "Robeson",
+    "first_name": "Scott"
+  },
+  {
+    "call_sign": "WH6EMG",
+    "last_name": "Delenstarr",
+    "first_name": "Glenda"
+  },
+  {
+    "call_sign": "WH6ENQ",
+    "last_name": "de Luis",
+    "first_name": "Debra"
+  },
+  {
+    "call_sign": "WH6QI",
+    "last_name": "Kano",
+    "first_name": "Mike"
+  },
+  {
+    "call_sign": "WH7JW",
+    "last_name": "Medeiros",
+    "first_name": "Lionel"
+  },
+  {
+    "call_sign": "WH7SI",
+    "last_name": "Bown",
+    "first_name": "David"
+  },
+  {
+    "call_sign": "WH7SU",
+    "last_name": "Tanita",
+    "first_name": "Robert"
+  },
+  {
+    "call_sign": "WH7TX",
+    "last_name": "Kakazu",
+    "first_name": "Franklin"
+  },
+  {
+    "call_sign": "WH7XA",
+    "last_name": "Blake",
+    "first_name": "Michelle"
+  },
+  {
+    "call_sign": "WH7ZF",
+    "last_name": "Marshall",
+    "first_name": "Paul"
+  },
+  {
+    "call_sign": "WH7ZI",
+    "last_name": "Blake",
+    "first_name": "Randall"
+  },
+  {
+    "last_name": "Cook",
+    "first_name": "Mark"
+  },
+  {
+    "last_name": "Ikeda",
+    "first_name": "Clifford"
+  },
+  {
+    "last_name": "Joy",
+    "first_name": "Patrick"
+  },
+  {
+    "last_name": "McFarland",
+    "first_name": "Greg"
+  },
+  {
+    "last_name": "Miller",
+    "first_name": "Bill"
+  },
+  {
+    "last_name": "Neudorffer",
+    "first_name": "Mary"
+  },
+  {
+    "last_name": "Rita-Sarmento",
+    "first_name": "Darlene"
+  },
+  {
+    "last_name": "Sarmento",
+    "first_name": "Alfred"
+  },
+  {
+    "last_name": "Shinn",
+    "first_name": "Gerald"
+  },
+  {
+    "last_name": "Tanizaki",
+    "first_name": "James"
+  },
+  {
+    "last_name": "Whiteby",
+    "first_name": "Edward"
+  }
+]
