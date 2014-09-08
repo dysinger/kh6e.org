@@ -1,8 +1,8 @@
 # Join Us!
 
-Kaua'i Amatuer Radio Club is a registered 503c non-profit
-organization.  We need all the help we can get.  Join our radio club.
-We use club dues for expenses.  For example:
+Kaua'i Amatuer Radio Club is a non-profit organization.  We need all
+the help we can get.  Join our radio club.  We use club dues for
+expenses.  For example:
 
 - Maintaining Kaui'i repeaters
 - Running this KH6E website
