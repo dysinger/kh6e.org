@@ -45,6 +45,11 @@
     "first_name": "Amber"
   },
   {
+    "call_sign": "KE5OQD",
+    "last_name": "Clark",
+    "first_name": "Rick"
+  },
+  {
     "call_sign": "KF6VI",
     "last_name": "Gill",
     "first_name": "John"
@@ -85,6 +90,11 @@
     "first_name": "Ron"
   },
   {
+    "call_sign": "KH6PN",
+    "last_name": "Traller",
+    "first_name": "Donald"
+  },
+  {
     "call_sign": "KH7RAM",
     "last_name": "Montalbano",
     "first_name": "Ruth"
@@ -107,7 +117,7 @@
   {
     "call_sign": "NH7UP",
     "last_name": "Robertson",
-    "first_name": "Bob"
+    "first_name": "Robert"
   },
   {
     "call_sign": "NH7UV",
@@ -130,6 +140,11 @@
     "first_name": "Caroline"
   },
   {
+    "call_sign": "W5BWH",
+    "last_name": "Hooker",
+    "first_name": "Bill"
+  },
+  {
     "call_sign": "WB9SMM",
     "last_name": "Leekley",
     "first_name": "John"
@@ -138,6 +153,12 @@
     "call_sign": "WG6CHA",
     "last_name": "Brown",
     "first_name": "Dallas"
+  },
+  {
+  {
+    "call_sign": "WH6DQP",
+    "last_name": "Harwell",
+    "first_name": "Craig"
   },
   {
     "call_sign": "WH6DTV",
@@ -246,7 +267,8 @@
   },
   {
     "last_name": "Shinn",
-    "first_name": "Gerald"
+    "first_name": "Gerald",
+    "call_sign": "NH7UT"
   },
   {
     "last_name": "Tanizaki",
