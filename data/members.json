@@ -30,11 +30,6 @@
     "first_name": "Tom"
   },
   {
-    "call_sign": "KB6KL",
-    "last_name": "Richman",
-    "first_name": "Monroe"
-  },
-  {
     "call_sign": "KB7FBM",
     "last_name": "Tanner",
     "first_name": "Phillip"
@@ -60,11 +55,6 @@
     "first_name": "John"
   },
   {
-    "call_sign": "KF6VRB",
-    "last_name": "Nilsen",
-    "first_name": "Susan"
-  },
-  {
     "call_sign": "KH6AS",
     "last_name": "Anderson",
     "first_name": "Robert"
@@ -83,16 +73,6 @@
     "call_sign": "KH6FGS",
     "last_name": "Caires",
     "first_name": "Roger"
-  },
-  {
-    "call_sign": "KH6HU",
-    "last_name": "Hill",
-    "first_name": "Jerry"
-  },
-  {
-    "call_sign": "KH6ILL",
-    "last_name": "Rivard",
-    "first_name": "Robert"
   },
   {
     "call_sign": "KH6JMM",
@@ -120,11 +100,6 @@
     "first_name": "Ruth"
   },
   {
-    "call_sign": "KH7ZQ",
-    "last_name": "Nilsen",
-    "first_name": "Peter"
-  },
-  {
     "call_sign": "NH6JC",
     "last_name": "Oishi",
     "first_name": "Mitchell"
@@ -133,11 +108,6 @@
     "call_sign": "NH6O",
     "last_name": "Dorland",
     "first_name": "Ken"
-  },
-  {
-    "call_sign": "NH6WZ",
-    "last_name": "Momohara",
-    "first_name": "Kurt"
   },
   {
     "call_sign": "NH7TZ",
@@ -175,11 +145,6 @@
     "first_name": "Bill"
   },
   {
-    "call_sign": "W7KWS",
-    "last_name": "Fuller",
-    "first_name": "Robert"
-  },
-  {
     "call_sign": "WB9SMM",
     "last_name": "Leekley",
     "first_name": "John"
@@ -190,10 +155,6 @@
     "first_name": "Dallas"
   },
   {
-    "call_sign": "WH6DOP",
-    "last_name": "Kirby",
-    "first_name": "John"
-  },
   {
     "call_sign": "WH6DQP",
     "last_name": "Harwell",
@@ -235,34 +196,14 @@
     "first_name": "Mike"
   },
   {
-    "call_sign": "WH7HU",
-    "last_name": "Neal",
-    "first_name": "Tom"
-  },
-  {
-    "call_sign": "WH7JU",
-    "last_name": "Brooks",
-    "first_name": "Ellis"
-  },
-  {
     "call_sign": "WH7JW",
     "last_name": "Medeiros",
     "first_name": "Lionel"
   },
   {
-    "call_sign": "WH7MD",
-    "last_name": "Culliney",
-    "first_name": "John"
-  },
-  {
     "call_sign": "WH7SI",
     "last_name": "Bown",
     "first_name": "David"
-  },
-  {
-    "call_sign": "WH7SN",
-    "last_name": "Culliney",
-    "first_name": "Kelly"
   },
   {
     "call_sign": "WH7SU",
