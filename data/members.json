@@ -85,6 +85,11 @@
     "last_name": "Victorino"
   },
   {
+    "call_sign": "KH7DT",
+    "first_name": "Reid",
+    "last_name": "Gevin"
+  },
+  {
     "call_sign": "KH7RAM",
     "first_name": "Ruth",
     "last_name": "Montalbano"
@@ -113,6 +118,11 @@
     "call_sign": "NH7UP",
     "first_name": "Bob",
     "last_name": "Robertson"
+  },
+  {
+    "call_sign": "NH7UT",
+    "first_name": "Gerald",
+    "last_name": "Shinn"
   },
   {
     "call_sign": "NH7UV",
@@ -248,10 +258,6 @@
   {
     "first_name": "Alfred",
     "last_name": "Sarmento"
-  },
-  {
-    "first_name": "Gerald",
-    "last_name": "Shinn"
   },
   {
     "first_name": "Edward",
