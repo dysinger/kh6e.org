@@ -12,7 +12,8 @@
   {
     "call_sign": "AH6TA",
     "first_name": "Elaine",
-    "last_name": "Albertson"
+    "last_name": "Albertson",
+    "role": "Secretary"
   },
   {
     "call_sign": "AH6TE",
@@ -57,7 +58,8 @@
   {
     "call_sign": "KH6DO",
     "first_name": "Dick",
-    "last_name": "Olsen"
+    "last_name": "Olsen",
+    "role": "Treasurer"
   },
   {
     "call_sign": "KH6EZ",
@@ -72,12 +74,14 @@
   {
     "call_sign": "KH6JMM",
     "first_name": "John",
-    "last_name": "Montalbano"
+    "last_name": "Montalbano",
+    "role": "President"
   },
   {
     "call_sign": "KH6JI",
     "first_name": "Ron",
-    "last_name": "Crown"
+    "last_name": "Crown",
+    "role": "Reapeaters"
   },
   {
     "call_sign": "KH6JPT",
@@ -167,7 +171,8 @@
   {
     "call_sign": "WH6DZP",
     "first_name": "Steve",
-    "last_name": "Thatcher"
+    "last_name": "Thatcher",
+    "role": "Activities Director"
   },
   {
     "call_sign": "WH6EBU",
@@ -227,7 +232,8 @@
   {
     "call_sign": "WH7XA",
     "first_name": "Michelle",
-    "last_name": "Blake"
+    "last_name": "Blake",
+    "role": "Vice-President"
   },
   {
     "call_sign": "WH7ZF",

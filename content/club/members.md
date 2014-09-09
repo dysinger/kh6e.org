@@ -4,13 +4,13 @@
   <thead>
     <tr>
       <th>Member</th>
-      <th>Call Sign</th>
+      <th>Call</th>
     </tr>
   </thead>
   <tbody>
 {{#each members}}
     <tr>
-      <td>{{first_name}} {{last_name}}</td>
+      <td>{{#if role}}**{{/if}}{{first_name}} {{last_name}}{{#if role}}, {{role}}**{{/if}}
       <td>{{call_sign}}</td>
     </tr>
 {{/each}}
