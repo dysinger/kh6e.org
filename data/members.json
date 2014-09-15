@@ -26,6 +26,11 @@
     "last_name": "Harwell"
   },
   {
+    "call_sign": "AH6UL",
+    "first_name": "Mark",
+    "last_name": "Cook"
+  },
+  {
     "call_sign": "K4XV",
     "first_name": "Tom",
     "last_name": "Ellis"
@@ -115,6 +120,11 @@
     "silent_key": true
   },
   {
+    "call_sign": "NH7CD",
+    "first_name": "Darlene",
+    "last_name": "Rita-Sarmento"
+  },
+  {
     "call_sign": "NH7TZ",
     "first_name": "Jane",
     "last_name": "Goldsmith"
@@ -143,6 +153,11 @@
     "call_sign": "NH7YS",
     "first_name": "Tad",
     "last_name": "Miura"
+  },
+  {
+    "call_sign": "NH7ZR",
+    "first_name": "Alfred",
+    "last_name": "Sarmento"
   },
   {
     "call_sign": "NH7ZS",
@@ -184,6 +199,11 @@
     "call_sign": "WH6EEK",
     "first_name": "James",
     "last_name": "Tanizaki"
+  },
+  {
+    "call_sign": "WH6EIO",
+    "first_name": "Greg",
+    "last_name": "McFarland"
   },
   {
     "call_sign": "WH6EMD",
@@ -247,24 +267,9 @@
     "last_name": "Blake"
   },
   {
-    "first_name": "Mark",
-    "last_name": "Cook"
-  },
-  {
+    "call_sign": "WR1Z",
     "first_name": "Patrick",
     "last_name": "Joy"
-  },
-  {
-    "first_name": "Greg",
-    "last_name": "McFarland"
-  },
-  {
-    "first_name": "Darlene",
-    "last_name": "Rita-Sarmento"
-  },
-  {
-    "first_name": "Alfred",
-    "last_name": "Sarmento"
   },
   {
     "first_name": "Edward",
