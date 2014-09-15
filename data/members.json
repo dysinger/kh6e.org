@@ -111,7 +111,8 @@
   {
     "call_sign": "NH6O",
     "first_name": "Ken",
-    "last_name": "Dorland"
+    "last_name": "Dorland",
+    "silent_key": true
   },
   {
     "call_sign": "NH7TZ",

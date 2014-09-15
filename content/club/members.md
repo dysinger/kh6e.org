@@ -11,7 +11,7 @@
 {{#each members}}
     <tr>
       <td>
-      {{#if role}}**{{/if}}{{first_name}} {{last_name}}{{#if role}}, {{role}}**{{/if}}
+        {{#if role}}**{{/if}}{{first_name}} {{last_name}}{{#if role}}, {{role}}**{{/if}}{{#if silent_key}}, Silent Key{{/if}}
       </td>
       <td>{{call_sign}}</td>
     </tr>
