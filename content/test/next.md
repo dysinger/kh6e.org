@@ -2,8 +2,8 @@
 
 An Amateur Radio license exam session will be administered by
 Volunteer Examiners on Kaua`i about every three months. The date of
-the next study session and license exams will be Saturday, Sept
-6, 2014.
+the next study session and license exams will be Saturday, Nov 29,
+2014.
 
 The test will be held in the KIUC meeting room.
 
@@ -32,7 +32,7 @@ Class, General Class or Extra Class License. The License Exam will
 start at 3:30 PM, please show up before 3:00 PM. You MUST bring two
 forms of ID; one MUST be a photo ID. We prefer two photo IDs. For
 upgrades, you MUST also bring a copy of your current Amateur
-license. The test fee is $15.00, set by FCC. (Cell phone number on
+license. The test fee is $14.00, set by W5YI. (Cell phone number on
 test day is 808-652-0258, for proctor Elaine Albertson AH6TA). Please
 print and mail the completed sign-up form. Reserve your seat by noon
 on the Friday preceding the test date. NO WALK-INS. Should you have
