@@ -8,9 +8,11 @@ type IconOptions = { prefix :: String,
                      markerColor :: String }
 
 foreign import icon
-  "function icon(o) {\
-  \  return function() {\
-  \    return L.AwesomeMarkers.icon(o);\
-  \  }\
-  \}"
+  """
+  function icon(o) {
+    return function() {
+      return L.AwesomeMarkers.icon(o);
+    }
+  }
+  """
   :: forall e. IconOptions -> Eff e Icon

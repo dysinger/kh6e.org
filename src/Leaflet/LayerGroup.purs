@@ -4,18 +4,22 @@ import Control.Monad.Eff
 import Leaflet.Types
 
 foreign import layerGroupToILayer
-  "function layerGroupToILayer(l) {\
-  \  return l;\
-  \}" :: LayerGroup -> ILayer
+  """
+  function layerGroupToILayer(l) {
+    return l;
+  }
+  """ :: LayerGroup -> ILayer
 
 foreign import addLayerGroupToMap
-  "function addLayerGroupToMap(l) {\
-  \  return function(m) {\
-  \    return function() {\
-  \      return l.addTo(m);\
-  \    }\
-  \  }\
-  \}"
+  """
+  function addLayerGroupToMap(l) {
+    return function(m) {
+      return function() {
+        return l.addTo(m);
+      }
+    }
+  }
+  """
   :: forall e. LayerGroup -> Map -> Eff e LayerGroup
 
 instance layerGroupLayer :: Layer LayerGroup where
@@ -23,7 +27,9 @@ instance layerGroupLayer :: Layer LayerGroup where
   addTo = addLayerGroupToMap
 
 foreign import layerGroup
-  "function layerGroup(ls) {\
-  \  return L.layerGroup(ls);\
-  \}"
+  """
+  function layerGroup(ls) {
+    return L.layerGroup(ls);
+  }
+  """
   :: [ILayer] -> LayerGroup

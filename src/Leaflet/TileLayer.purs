@@ -4,18 +4,19 @@ import Control.Monad.Eff
 import Leaflet.Types
 
 foreign import tileLayerToILayer
-  "function tileLayerToILayer(l) {\
-  \  return l;\
-  \}" :: TileLayer -> ILayer
+  "function tileLayerToILayer(l) { return l; }"
+  :: TileLayer -> ILayer
 
 foreign import addTileLayerToMap
-  "function addTileLayerToMap(l) {\
-  \  return function(m) {\
-  \    return function() {\
-  \      return l.addTo(m);\
-  \    }\
-  \  }\
-  \}"
+  """
+  function addTileLayerToMap(l) {
+    return function(m) {
+      return function() {
+        return l.addTo(m);
+      }
+    }
+  }
+  """
   :: forall e. TileLayer -> Map -> Eff e TileLayer
 
 instance tileLayerLayer :: Layer TileLayer where
@@ -23,11 +24,13 @@ instance tileLayerLayer :: Layer TileLayer where
   addTo = addTileLayerToMap
 
 foreign import tileLayer
-  "function tileLayer(u) {\
-  \  return function(o) {\
-  \    return function() {\
-  \      return L.tileLayer(u,o);\
-  \    }\
-  \  }\
-  \}"
+  """
+  function tileLayer(u) {
+    return function(o) {
+      return function() {
+        return L.tileLayer(u,o);
+      }
+    }
+  }
+  """
   :: forall r e. URL -> TileLayerOptions r -> Eff e TileLayer
