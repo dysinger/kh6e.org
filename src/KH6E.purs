@@ -77,7 +77,11 @@ karcMeetingPlaces = do
   fpig  <- bindPopup "The Feral Pig" {}
            $ marker { icon: blueCutleryIcon }
            $ latLng 21.961465 (-159.353008)
-  return $ toILayer $ layerGroup $ map toILayer [ civic, kiuc, fpig ]
+  return
+    <<< toILayer
+    <<< layerGroup
+    <<< map toILayer
+    $ [ civic, kiuc, fpig ]
 
 foreign import windowWidth
   "function windowWidth() { return $(window).width(); }"
