@@ -30,4 +30,4 @@ foreign import tileLayer
   \    }\
   \  }\
   \}"
-  :: forall e. URL -> TileLayerOptions -> Eff e TileLayer
+  :: forall r e. URL -> TileLayerOptions r -> Eff e TileLayer
