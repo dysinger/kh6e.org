@@ -8,6 +8,7 @@ message in between districts.
   <thead>
     <tr>
       <th>Frequency</th>
+      <th>Display</th>
       <th>Use</th>
     </tr>
   </thead>
@@ -15,6 +16,7 @@ message in between districts.
     {{#each simplex}}
     <tr>
       <td>{{frequency}} MHz</td>
+      <td>{{display}}</td>
       <td>{{use}}</td>
     </tr>
     {{/each}}

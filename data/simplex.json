@@ -1,100 +1,123 @@
 [
   {
-    "frequency": "146.400"
-  },
-  {
     "frequency": "146.415",
+    "display": "ALPHA",
     "use": "Koloa Alternate"
   },
   {
     "frequency": "146.430",
+    "display": "BRAVO",
     "use": "Kawaihau District"
   },
   {
     "frequency": "146.445",
+    "display": "CHARLIE",
     "use": "Waimea District"
   },
   {
     "frequency": "146.460",
+    "display": "DELTA",
     "use": "Digital (Fldigi) Communications"
   },
   {
     "frequency": "146.475",
+    "display": "ECHO",
     "use": "Lihue District"
   },
   {
-    "frequency": "146.490"
+    "frequency": "146.490",
+    "display": "FOXTROT"
   },
   {
-    "frequency": "146.505"
+    "frequency": "146.505",
+    "display": "GOLF"
   },
   {
     "frequency": "146.520",
+    "display": "HOTEL",
     "use": "National Calling Frequency"
   },
   {
-    "frequency": "146.535"
+    "frequency": "146.535",
+    "display": "INDIA"
   },
   {
     "frequency": "146.550",
+    "display": "JULIETTE",
     "use": "ARRL ARES Kaua‘i NCS"
   },
   {
     "frequency": "146.565",
+    "display": "KILO",
     "use": "Hanalei Alternate"
   },
   {
-    "frequency": "146.580"
+    "frequency": "146.580",
+    "display": "LIMA"
   },
   {
     "frequency": "146.595",
+    "display": "MIKE",
     "use": "Message Channel for NCS"
   },
   {
     "frequency": "147.420",
+    "display": "NOVEMBER",
     "use": "American Red Cross"
   },
   {
-    "frequency": "147.435"
+    "frequency": "147.435",
+    "display": "OSCAR"
   },
   {
     "frequency": "147.450",
+    "display": "PAPA",
     "use": "National Weather Service / SKYWARN"
   },
   {
-    "frequency": "147.465"
+    "frequency": "147.465",
+    "display": "QUEBEC"
   },
   {
     "frequency": "147.480",
+    "display": "ROMEO",
     "use": "Koloa District"
   },
   {
     "frequency": "147.495",
+    "display": "SIERRA",
     "use": "Kawaihau Alternate"
   },
   {
     "frequency": "147.510",
+    "display": "TANGO",
     "use": "Lihue Alternate"
   },
   {
     "frequency": "147.525",
+    "display": "UNIFORM",
     "use": "Hanalei District"
   },
   {
-    "frequency": "147.540"
+    "frequency": "147.540",
+    "display": "VICTOR"
   },
   {
-    "frequency": "147.555"
+    "frequency": "147.555",
+    "display": "WHISKEY"
   },
   {
     "frequency": "147.570",
+    "display": "XRAY",
     "use": "Search and Rescue"
   },
   {
-    "frequency": "147.585"
+    "frequency": "147.585",
+    "display": "YANKEE"
   },
   {
     "frequency": "446.000",
+    "display": "ZULU",
     "use": "National Calling Frequency"
   }
 ]
