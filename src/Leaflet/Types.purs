@@ -26,6 +26,6 @@ type MapOptions = { attributionControl :: Boolean,
 
 type TileLayerOptions r = { subdomains :: [String] | r }
 
-type MarkerOptions = { icon :: Icon }
+type MarkerOptions r = { icon :: Icon | r }
 
-type PopupOptions = {}
+type PopupOptions r = { | r }

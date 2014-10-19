@@ -34,7 +34,7 @@ foreign import marker
     }
   }
   """
-  :: MarkerOptions -> LatLng -> Marker
+  :: forall r. MarkerOptions r -> LatLng -> Marker
 
 foreign import bindPopup
   """
@@ -48,4 +48,4 @@ foreign import bindPopup
     }
   }
   """
-  :: forall e. String -> PopupOptions -> Marker -> Eff e Marker
+  :: forall r e. String -> PopupOptions r -> Marker -> Eff e Marker
