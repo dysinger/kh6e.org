@@ -5,13 +5,13 @@
 // Variables
 // --------------------------------------------------
 
-@ps-text:         #2F434B;
-@ps-nav-bg:       #3C6275;
-@ps-link-text:    #B13A39;
-@ps-nav-text:     #EEEEEE;
-@ps-well-bg:      #ACBDC5;
-@ps-jumbotron-bg: #CCCCCC;
-@ps-bg:           #EEEEEE;
+@ps-text:         #444444;
+@ps-nav-bg:       #44749D;
+@ps-link-text:    #44749D;
+@ps-nav-text:     #EBE7E0;
+@ps-well-bg:      #C6D4E1;
+@ps-jumbotron-bg: #EBE7E0;
+@ps-bg:           #FFFFFF;
 
 //== Colors
 //
@@ -23,7 +23,7 @@
 @gray-light:             lighten(#000, 46.7%); // #777
 @gray-lighter:           lighten(#000, 93.5%); // #eee
 
-@brand-primary:         #B13A39;
+@brand-primary:         #44749D;
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
 @brand-warning:         #f0ad4e;
@@ -689,7 +689,7 @@
 //
 //##
 
-@panel-bg:                    #fff;
+@panel-bg:                    @ps-bg;
 @panel-body-padding:          15px;
 @panel-heading-padding:       10px 15px;
 @panel-footer-padding:        @panel-heading-padding;
@@ -697,11 +697,11 @@
 
 //** Border color for elements within panels
 @panel-inner-border:          #ddd;
-@panel-footer-bg:             #f5f5f5;
+@panel-footer-bg:             @ps-well-bg;
 
-@panel-default-text:          @gray-dark;
+@panel-default-text:          @ps-text;
 @panel-default-border:        #ddd;
-@panel-default-heading-bg:    #f5f5f5;
+@panel-default-heading-bg:    @ps-well-bg;
 
 @panel-primary-text:          #fff;
 @panel-primary-border:        @brand-primary;
@@ -852,5 +852,3 @@
 @dl-horizontal-offset:        @component-offset-horizontal;
 //** Horizontal line color.
 @hr-border:                   @ps-jumbotron-bg;
-
-
