@@ -7,6 +7,6 @@ expenses.  For example:
 - Maintaining Kaua'i repeaters
 - Running this KH6E website
 
-Fill out this <a href="{{assets}}/doc/2014_application_form.pdf">2014
+Fill out this <a href="{{assets}}/doc/kauai_amateur_radio_club_app_form.pdf">2014
 Kauai Amateur Radio Club Membership Application</a> and mail it in
 today!
