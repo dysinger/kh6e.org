@@ -9,6 +9,6 @@ expenses.  For example:
 
 Fill out this
 <a href="{{assets}}/doc/kauai_amateur_radio_club_app_form.pdf">
-Kauai Amateur Radio Club Membership Application
+Kauai Amateur Radio Club Application
 </a>
 and mail it in today!
