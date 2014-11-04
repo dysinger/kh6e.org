@@ -7,13 +7,6 @@
     "pl": "100.0"
   },
   {
-    "location": "Kalaheo",
-    "call": "NH6HI",
-    "frequency": "145.750",
-    "type": "Simplex",
-    "pl": "100.0"
-  },
-  {
     "location": "Lihue",
     "call": "KH6S",
     "frequency": "444.250",
