@@ -43,19 +43,5 @@
     "name": "Hanamaulu",
     "offset": "-",
     "sponsor": "GTE"
-  },
-  {
-    "frequency": "449.250",
-    "linked": false,
-    "location": "Lihue, Wilcox Hospital (E)",
-    "name": "Wilcox Hospital",
-    "offset": "-"
-  },
-  {
-    "frequency": "444.175",
-    "linked": false,
-    "location": "Below Kalaheo (SW)",
-    "name": "Lawai",
-    "offset": "+"
   }
 ]
