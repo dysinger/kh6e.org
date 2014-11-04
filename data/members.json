@@ -221,6 +221,16 @@
     "last_name": "de Luis"
   },
   {
+    "call_sign": "WH6EOO",
+    "first_name": "Rhian",
+    "last_name": "Campbell"
+  },
+  {
+    "call_sign": "WH6EOP",
+    "first_name": "Sundee",
+    "last_name": "Campbell"
+  },
+  {
     "call_sign": "WH6QI",
     "first_name": "Mike",
     "last_name": "Kano"
@@ -271,14 +281,6 @@
     "call_sign": "WR1Z",
     "first_name": "Patrick",
     "last_name": "Joy"
-  },
-  {
-    "first_name": "Rhian",
-    "last_name": "Campbell"
-  },
-  {
-    "first_name": "Sundee",
-    "last_name": "Campbell"
   },
   {
     "first_name": "Edward",
