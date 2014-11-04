@@ -1,1 +1,1 @@
-minutes/2014-09-08.md
+minutes/2014-10-06.md
