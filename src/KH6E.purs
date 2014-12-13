@@ -68,7 +68,7 @@ karcMeetingPlaces = do
   blueCutleryIcon <- Awesome.icon { prefix: "glyphicon"
                                   , icon: "cutlery"
                                   , markerColor: "blue" }
-  civic <- bindPopup "Kauai Civic Center<br>(Planning Room 2A/2B)" {}
+  civic <- bindPopup "Lihue Civic Center<br>(Planning Room 2A/2B)" {}
            $ marker { icon: blueInstitutionIcon }
            $ latLng 21.975795 (-159.369375)
   kiuc  <- bindPopup "Kauai Island Utility Coop<br>Suite 1" {}
