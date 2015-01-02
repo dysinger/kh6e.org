@@ -1,38 +1,5 @@
 [
   {
-    "date": "2014-09-02",
-    "ncs": {
-      "name": "Michelle Blake",
-      "call": "WH7XA"
-    },
-    "logger": {
-      "name": "Steve Thatcher",
-      "call": "WH6DZP"
-    }
-  },
-  {
-    "date": "2014-10-01",
-    "ncs": {
-      "name": "Steve Thatcher",
-      "call": "WH6DZP"
-    },
-    "logger": {
-      "name": "Randy Blake",
-      "call": "WH7ZI"
-    }
-  },
-  {
-    "date": "2014-11-03",
-    "ncs": {
-      "name": "Randy Blake",
-      "call": "WH7ZI"
-    },
-    "logger": {
-      "name": "Richard Etzel",
-      "call": "WH6DTV"
-    }
-  },
-  {
     "date": "2014-12-02",
     "ncs": {
       "name": "Richard Etzel",
