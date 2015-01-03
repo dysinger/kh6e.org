@@ -1,5 +1,8 @@
 # Kaua'i Repeaters
 
+*NOTE: Our linked repeaters are currently unlinked due to technical
+ problems. We hope to have them linked together again soon.*
+
 <table class="table table-striped table-bordered table-hover table-condensed">
   <thead>
     <tr>
@@ -27,9 +30,6 @@
 
 ###Notes:
 * Tones are not used on any Kaua'i repeaters.
-* The "linked" repeaters are operated and maintained by the Kaua'i
-  Amateur Radio Club. They cover most (about 75%) of the populated
-  areas on Kaua'i.
 * All of our repeaters are solar powered with storage batteries. Our
   main repeater KH6E is located on Mt. Kahili, a high isolated
   mountain top for better coverage.  It has been operating for many
