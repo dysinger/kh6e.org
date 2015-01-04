@@ -109,6 +109,11 @@
     "last_name": "Montalbano"
   },
   {
+    "call_sign": "KK6COS",
+    "first_name": "Edward",
+    "last_name": "Whiteby"
+  },
+  {
     "call_sign": "NH6HF",
     "first_name": "Clifford",
     "last_name": "Ikeda"
@@ -286,9 +291,5 @@
     "call_sign": "WR1Z",
     "first_name": "Patrick",
     "last_name": "Joy"
-  },
-  {
-    "first_name": "Edward",
-    "last_name": "Whiteby"
   }
 ]
