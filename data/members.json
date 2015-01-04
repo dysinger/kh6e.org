@@ -12,13 +12,13 @@
   {
     "call_sign": "AH6TA",
     "first_name": "Elaine",
-    "last_name": "Albertson",
-    "role": "Secretary"
+    "last_name": "Albertson"
   },
   {
     "call_sign": "AH6TE",
     "first_name": "Tim",
-    "last_name": "Dysinger"
+    "last_name": "Dysinger",
+    "role": "Activities Director"
   },
   {
     "call_sign": "AH6UA",
@@ -198,7 +198,7 @@
     "call_sign": "WH6DZP",
     "first_name": "Steve",
     "last_name": "Thatcher",
-    "role": "Activities Director"
+    "role": "Vice President"
   },
   {
     "call_sign": "WH6EBU",
@@ -274,7 +274,7 @@
     "call_sign": "WH7XA",
     "first_name": "Michelle",
     "last_name": "Blake",
-    "role": "Vice-President"
+    "role": "Secretary"
   },
   {
     "call_sign": "WH7ZF",
