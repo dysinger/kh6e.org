@@ -401,6 +401,30 @@
     ]
   },
   {
+    "call_sign": "WH6EOR",
+    "first_name": "Lawrence",
+    "last_name": "Lademan",
+    "years": [
+      2015
+    ]
+  },
+  {
+    "call_sign": "WH6ERB",
+    "first_name": "Edward",
+    "last_name": "Edwards",
+    "years": [
+      2015
+    ]
+  },
+  {
+    "call_sign": "WH6ERD",
+    "first_name": "Allan",
+    "last_name": "Parachini",
+    "years": [
+      2015
+    ]
+  },
+  {
     "call_sign": "WH6QI",
     "first_name": "Mike",
     "last_name": "Kano",
@@ -491,6 +515,13 @@
     "last_name": "Baker",
     "years": [
       2014
+    ]
+  },
+  {
+    "first_name": "Sandy",
+    "last_name": "Lademan",
+    "years": [
+      2015
     ]
   }
 ]
