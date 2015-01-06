@@ -19,7 +19,6 @@ module KH6E where
 
 import           Control.Monad.Eff
 import           Data.Array
-import           Leaflet.Icon
 import           Leaflet.LatLng
 import           Leaflet.LatLngBounds
 import           Leaflet.LayerGroup

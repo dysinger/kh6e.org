@@ -1,13 +1,11 @@
 {
   "dependencies": {
-    "L.GeoSearch": "*",
-    "Leaflet.awesome-markers": "*",
     "bootstrap": "*",
     "font-awesome": "*",
     "html5shiv": "*",
     "jquery": "*",
-    "leaflet": "*",
-    "purescript-arrays": "*"
+    "purescript-arrays": "*",
+    "purescript-leaflet": "*"
   },
   "devDependencies": {
     "purescript-quickcheck": "*"
