@@ -1,12 +1,111 @@
 [
   {
-    "date": "2014-12-02",
-    "ncs": {
+    "date": "2015-03-02",
+    "logger": {
       "name": "Richard Etzel",
       "call": "WH6DTV"
     },
+    "ncs": {
+      "name": "John Montalbono",
+      "call": "KH6JMM"
+    }
+  },
+  {
+    "date": "2015-04-01",
+    "logger": {
+      "name": "Steve Thatcher",
+      "call": "WH6DZP"
+    },
+    "ncs": {
+      "name": "Richard Etzel",
+      "call": "WH6DTV"
+    }
+  },
+  {
+    "date": "2015-05-01",
+    "logger": {
+      "name": "John Leekley",
+      "call": "WB9SMM"
+    },
+    "ncs": {
+      "name": "Steve Thatcher",
+      "call": "WH6DZP"
+    }
+  },
+  {
+    "date": "2015-06-01",
+    "logger": {
+      "name": "Tim Dysinger",
+      "call": "AH6TE"
+    },
+    "ncs": {
+      "name": "John Leekley",
+      "call": "WB9SMM"
+    }
+  },
+  {
+    "date": "2015-07-01",
+    "logger": {
+      "name": "Michelle Blake",
+      "call": "WH7XA"
+    },
+    "ncs": {
+      "name": "Tim Dysinger",
+      "call": "AH6TE"
+    }
+  },
+  {
+    "date": "2015-08-03",
+    "logger": {
+      "name": "James Mertens",
+      "call": "WH6ERC"
+    },
+    "ncs": {
+      "name": "Michelle Blake",
+      "call": "WH7XA"
+    }
+  },
+  {
+    "date": "2015-09-01",
+    "logger": {
+      "name": "Randall Blake",
+      "call": "WH7ZI"
+    },
+    "ncs": {
+      "name": "James Mertens",
+      "call": "WH6ERC"
+    }
+  },
+  {
+    "date": "2015-10-01",
+    "logger": {
+      "name": "Tad Miura",
+      "call": "NH7YS"
+    },
+    "ncs": {
+      "name": "Randall Blake",
+      "call": "WH7ZI"
+    }
+  },
+  {
+    "date": "2015-11-01",
     "logger": {
       "name": "James Tanizaki",
+      "call": "WH6EEK"
+    },
+    "ncs": {
+      "name": "Tad Miura",
+      "call": "NH7YS"
+    }
+  },
+  {
+    "date": "2015-12-02",
+    "logger": {
+      "name": "John Montalbono",
+      "call": "KH6JMM"
+    },
+    "ncs": {
+      "name": "James Tanizki",
       "call": "WH6EEK"
     }
   }
