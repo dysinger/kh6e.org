@@ -15,4 +15,4 @@ The date has not been set, but the class is normally done on a weekday
 morning.
 
 For more information on Skywarn see:
-(Skywarn)[http://www.prh.noaa.gov/hnl/skywarn/]
+[http://www.prh.noaa.gov/hnl/skywarn/](Skywarn)
