@@ -2,15 +2,18 @@
 
 An Amateur Radio License Exam session will be administered by
 Volunteer Examiners on Kaua`i every three months. The date of the next
-Study Session and License Exam will be Monday, Jan 19, 2015.
+Study Session and License Exam will be Saturday, Mar 21, 2015.
 
-The test will be held at the Kapaa Library.
+The test will be held in the KIUC meeting room.
 
-Kapaa Library
+Kaua'i Island Utility Cooperative
 
-4-1464 Kuhio Highway
+4463 Pahe'e Street, Suite 1
 
-Kapaa, HI 96746
+Lihu'e, HI 96766-2000
+
+There is a marker on our <a href="{{relative to
+'map.html'}}">interactive map page</a>.
 
 There will be a Study Session at 8:00am followed by a test held at
 3:00pm sharp. Study material for Technician and General amateur class
