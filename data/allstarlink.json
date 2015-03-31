@@ -1,8 +1,14 @@
 [
   {
-    "location": "Kalaheo",
-    "call": "KH6S",
-    "frequency": "444.975",
+    "location": "Anahola",
+    "call": "NH7CJ",
+    "frequency": "146.600",
+    "type": "Simplex",
+    "pl": "100.0"
+  },
+  {
+    "call": "WH6FM",
+    "frequency": "444.725+",
     "type": "Repeater",
     "pl": "100.0"
   },
@@ -14,10 +20,17 @@
     "pl": "100.0"
   },
   {
+    "location": "Kalaheo",
+    "call": "KH6S",
+    "frequency": "444.975",
+    "type": "Repeater",
+    "pl": "100.0"
+  },
+  {
     "location": "Anahola",
-    "call": "NH7CJ",
-    "frequency": "145.600",
-    "type": "Simplex",
+    "call": "KH6S",
+    "frequency": "446.600-",
+    "type": "Repeater",
     "pl": "100.0"
   }
 ]
