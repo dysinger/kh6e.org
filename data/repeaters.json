@@ -2,7 +2,7 @@
   {
     "call": "KH6E",
     "frequency": "146.920",
-    "linked": false,
+    "linked": true,
     "location": "Above Kalaheo (SW)",
     "name": "Mt Kahili",
     "offset": "-",
@@ -11,7 +11,7 @@
   {
     "call": "KH6E",
     "frequency": "146.700",
-    "linked": false,
+    "linked": true,
     "location": "Kilauea (N)",
     "name": "Crater Hill",
     "offset": "-",
@@ -29,7 +29,7 @@
   {
     "call": "KH6E",
     "frequency": "147.080",
-    "linked": false,
+    "linked": true,
     "location": "Lihue, Wilcox Hospital (E)",
     "name": "Wilcox Hospital",
     "offset": "+",
