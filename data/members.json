@@ -138,11 +138,9 @@
     "call_sign": "KH6JMM",
     "first_name": "John",
     "last_name": "Montalbano",
-    "roles": [
-      "President"
-    ],
+    "silent_key": true,
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -322,7 +320,7 @@
     "first_name": "Steve",
     "last_name": "Thatcher",
     "roles": [
-      "Vice President"
+      "President"
     ],
     "years": [
       2014, 2015
