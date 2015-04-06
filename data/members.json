@@ -32,7 +32,7 @@
       "Website"
     ],
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -92,11 +92,19 @@
     ]
   },
   {
+    "call_sign": "KH6ARS",
+    "first_name": "Allyn",
+    "last_name": "Smith",
+    "years": [
+      2015
+    ]
+  },
+  {
     "call_sign": "KH6AS",
     "first_name": "Robert",
     "last_name": "Anderson",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -107,7 +115,7 @@
       "Treasurer"
     ],
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -127,11 +135,19 @@
     ]
   },
   {
+    "call_sign": "KH6HU",
+    "first_name": "Jerry",
+    "last_name": "Hill",
+    "years": [
+      2015
+    ]
+  },
+  {
     "call_sign": "KH6ILL",
     "first_name": "Robert",
     "last_name": "Rivard",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -151,7 +167,7 @@
       "Repeaters"
     ],
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -167,7 +183,7 @@
     "first_name": "Gavin",
     "last_name": "Reid",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -175,7 +191,7 @@
     "first_name": "Ruth",
     "last_name": "Montalbano",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -183,7 +199,7 @@
     "first_name": "Edward",
     "last_name": "Whitby",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -191,7 +207,7 @@
     "first_name": "Clifford",
     "last_name": "Ikeda",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -209,6 +225,14 @@
     "silent_key": true,
     "years": [
       2014
+    ]
+  },
+  {
+    "call_sign": "NH6WZ",
+    "first_name": "Kurt",
+    "last_name": "Momohara",
+    "years": [
+      2015
     ]
   },
   {
@@ -256,7 +280,7 @@
     "first_name": "John",
     "last_name": "Gordon",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -288,7 +312,7 @@
     "first_name": "John",
     "last_name": "Leekley",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -304,7 +328,7 @@
     "first_name": "Richard",
     "last_name": "Etzel",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -327,11 +351,19 @@
     ]
   },
   {
+    "call_sign": "WH6DXI",
+    "first_name": "Bart",
+    "last_name": "Abbott",
+    "years": [
+      2015
+    ]
+  },
+  {
     "call_sign": "WH6EBU",
     "first_name": "Sara",
     "last_name": "Dysinger",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -347,7 +379,7 @@
     "first_name": "Greg",
     "last_name": "McFarland",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -355,7 +387,7 @@
     "first_name": "Scott",
     "last_name": "Robeson",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -379,7 +411,7 @@
     "first_name": "Debra",
     "last_name": "de Luis",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -387,7 +419,7 @@
     "first_name": "Rhian",
     "last_name": "Campbell",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -395,7 +427,7 @@
     "first_name": "Sundee",
     "last_name": "Cline-Campbell",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
@@ -467,7 +499,7 @@
     "first_name": "Franklin",
     "last_name": "Kakazu",
     "years": [
-      2014
+      2014, 2015
     ]
   },
   {
