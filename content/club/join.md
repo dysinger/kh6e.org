@@ -19,12 +19,21 @@ and mail it in today!
   <input type="hidden" name="cmd" value="_s-xclick">
   <input type="hidden" name="hosted_button_id" value="794ZK4QCSKRJY">
   <table>
-    <tr><td><input type="hidden" name="on0" value="Membership dues">Membership dues</td></tr><tr><td><select name="os0">
-          <option value="Single member">Single member $20.00 USD</option>
-          <option value="Additional family member">Additional family member $5.00 USD</option>
-    </select> </td></tr>
+    <tr>
+      <td>
+      <input type="hidden" name="on0" value="Membership dues">Membership dues
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <select name="os0">
+          <option value="Single membership">Single membership $20.00 USD</option>
+          <option value="Family membership">Family membership $25.00 USD</option>
+        </select>
+      </td>
+    </tr>
   </table>
   <input type="hidden" name="currency_code" value="USD">
-  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal">
   <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
