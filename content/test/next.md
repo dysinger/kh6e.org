@@ -2,7 +2,7 @@
 
 An Amateur Radio License Exam session will be administered by
 Volunteer Examiners on Kaua`i every three months. The date of the next
-Study Session and License Exam will be Saturday, Mar 21, 2015.
+Study Session and License Exam will in a couple months [TBD].
 
 The test will be held in the KIUC meeting room.
 
