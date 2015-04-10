@@ -2,18 +2,10 @@
 
 An Amateur Radio License Exam session will be administered by
 Volunteer Examiners on Kaua`i every three months. The date of the next
-Study Session and License Exam will in a couple months [TBD].
-
-The test will be held in the KIUC meeting room.
-
-Kaua'i Island Utility Cooperative
-
-4463 Pahe'e Street, Suite 1
-
-Lihu'e, HI 96766-2000
-
-There is a marker on our <a href="{{relative to
-'map.html'}}">interactive map page</a>.
+Study Session and License Exam will on
+[Field Day 2015, June 27th](http://www.arrl.org/field-day).  The
+location is still TBD but in past years it's been at the Nawiliwili
+Yacht Club.
 
 There will be a Study Session at 8:00am followed by a test held at
 3:00pm sharp. Study material for Technician and General amateur class
