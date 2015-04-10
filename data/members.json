@@ -92,14 +92,6 @@
     ]
   },
   {
-    "call_sign": "KH6ARS",
-    "first_name": "Allyn",
-    "last_name": "Smith",
-    "years": [
-      2015
-    ]
-  },
-  {
     "call_sign": "KH6AS",
     "first_name": "Robert",
     "last_name": "Anderson",
@@ -176,6 +168,14 @@
     "last_name": "Victorino",
     "years": [
       2014
+    ]
+  },
+  {
+    "call_sign": "KH7ARS",
+    "first_name": "Allyn",
+    "last_name": "Smith",
+    "years": [
+      2015
     ]
   },
   {
