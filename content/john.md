@@ -7,10 +7,17 @@ following a sudden, brief illness. He was born February 6, 1944. He
 worked diligently to promote the ham radio club and its activities on
 Kaua'i. He will be remembered fondly and missed by many.
 
-Celebration of life for John Montalbano will be held on Wednesday
-evening, April 1 at Garden Island Mortuary in Lawai, HI. (2-3780 B
-Kaumualiʻi Highway) Gathering and greeting with the family begins at 6
-PM with the celebration service beginning at 7 PM. You may bring light
-pupus to share for the celebration. There will be an urn for the
-cremains and the family would appreciate leis or flowers to decorate
-the celebration.
+Celebration of life for John Montalbano was held on Wednesday evening,
+April 1 at Garden Island Mortuary in Lawai, HI. (2-3780 B Kaumualiʻi
+Highway)
+
+We have setup a <strong>John Maltabano Memorial Repeater</strong> fund
+if you would like to donate.  We want to keep his memory alive.
+Please help us.
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="hosted_button_id" value="YGG9MFZL8AEZE">
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
