@@ -10,6 +10,7 @@
       <th>Name</th>
       <th>Frequency</th>
       <th>Offset</th>
+      <th>Tone</th>
     </tr>
   </thead>
   <tbody>
@@ -23,13 +24,13 @@
       <td>{{name}}</td>
       <td>{{frequency}} MHz</td>
       <td>{{offset}}</td>
+      <td>100.0 Hz</td>
     </tr>
 {{/each}}
   </tbody>
 </table>
 
 ###Notes:
-* Tones are not used on any Kaua'i repeaters.
 * All of our repeaters are solar powered with storage batteries. Our
   main repeater KH6E is located on Mt. Kahili, a high isolated
   mountain top for better coverage.  It has been operating for many
