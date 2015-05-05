@@ -34,14 +34,5 @@
     "name": "Wilcox Hospital",
     "offset": "+",
     "sponsor": "KARC"
-  },
-  {
-    "call": "WH6Z",
-    "frequency": "146.660",
-    "linked": false,
-    "location": "Hanamaulu, North Lihue on Mt Kalepa (E)",
-    "name": "Hanamaulu",
-    "offset": "-",
-    "sponsor": "GTE"
   }
 ]
