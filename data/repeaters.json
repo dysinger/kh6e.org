@@ -1,15 +1,6 @@
 [
   {
     "call": "KH6E",
-    "frequency": "146.920",
-    "linked": true,
-    "location": "Above Kalaheo (SW)",
-    "name": "Mt Kahili",
-    "offset": "-",
-    "sponsor": "KARC"
-  },
-  {
-    "call": "KH6E",
     "frequency": "146.700",
     "linked": true,
     "location": "Kilauea (N)",
@@ -19,11 +10,11 @@
   },
   {
     "call": "KH6E",
-    "frequency": "147.100",
-    "linked": false,
-    "location": "Hwy to Kokee (W)",
-    "name": "Waimea Canyon",
-    "offset": "+",
+    "frequency": "146.920",
+    "linked": true,
+    "location": "Above Kalaheo (SW)",
+    "name": "Mt Kahili",
+    "offset": "-",
     "sponsor": "KARC"
   },
   {
@@ -32,6 +23,15 @@
     "linked": true,
     "location": "Lihue, Wilcox Hospital (E)",
     "name": "Wilcox Hospital",
+    "offset": "+",
+    "sponsor": "KARC"
+  },
+  {
+    "call": "KH6E",
+    "frequency": "147.100",
+    "linked": false,
+    "location": "Hwy to Kokee (W)",
+    "name": "Waimea Canyon",
     "offset": "+",
     "sponsor": "KARC"
   }
