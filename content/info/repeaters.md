@@ -1,8 +1,5 @@
 # Kaua'i Repeaters
 
-*NOTE: Our linked repeaters are currently unlinked due to technical
- problems. We hope to have them linked together again soon.*
-
 <table class="table table-striped table-bordered table-hover table-condensed">
   <thead>
     <tr>
