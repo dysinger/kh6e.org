@@ -15,9 +15,9 @@ Lihu'e, HI 96766-2000
 There is a marker on our <a href="{{relative to
 'map.html'}}">interactive map page</a>.
 
-There will be a Study Session at 8:00am followed by a test held at
-3:00pm sharp. Study material for Technician and General amateur class
-licenses cost is $9.00 (cash only) each. **Please bring exact
+There will be a Exam-Cram Session at 12:00pm followed by a test held
+at 3:00pm sharp. Study material for Technician and General amateur
+class licenses cost is $9.00 (cash only) each. **Please bring exact
 change**. (Please call for specific information on Extra Class
 materials). If you have already studied, and only want to take the
 exam, please show up before 3:00 PM.
