@@ -1,57 +1,33 @@
 # FCC License Exams on Kaua'i
 
-An Amateur Radio License Exam session will be administered by
-Volunteer Examiners on Kaua`i every three months. The date of the next
-Study Session and License Exam will be August 8th, 2015.
+KARC has a team of volunteer FCC license examiners, offering you the
+opportunity to get your ham radio license, or upgrade your existing
+license, without having to travel. Exams are offered about every three
+months.
 
-The test will be held in the KIUC meeting room.
+Morse code is no longer a requirement to get a license. KARC no longer
+offers the day-long study session on exam day, but does instead offer
+free downloads for each of the FCC question pools which are used to
+study for exams. There are other suggestions for study aids as
+well. We are also available at the site on exam day from noon until
+the exam time to assist with questions, cramming, etc.
 
-Kaua'i Island Utility Cooperative
+### Register for the Exam
 
-4463 Pahe'e Street, Suite 1
+We no longer ask you to fill out a form. Please e-mail
+[KARC Ham Exams](mailto:hamexams@kauaimail.net?subject=Registration)
+providing your full legal name, call sign (if you already have one),
+contact phone, class of license you're wanting to sit for, and if you
+have any disability consideration which we may need to accommodate. We
+can accept a registration in this manner until 1800 hrs on the day
+preceding the exam if you need a significant accommodation, please
+advise us as soon as possible so we can make any necessary
+arrangements. You will receive a return e-mail with complete and
+specific instructions regarding the exam, cost ($14 – paid on exam
+day, cash only), and location (it changes occasionally). Exams begin
+at 1500 hrs and take about an hour, but there is no time limit.
 
-Lihu'e, HI 96766-2000
-
-There is a marker on our <a href="{{relative to
-'map.html'}}">interactive map page</a>.
-
-There will be a Exam-Cram Session at 12:00pm followed by a test held
-at 3:00pm sharp. Study material for Technician and General amateur
-class licenses cost is $9.00 (cash only) each. **Please bring exact
-change**. (Please call for specific information on Extra Class
-materials). If you have already studied, and only want to take the
-exam, please show up before 3:00 PM.
-
-The License Exam is open to all wishing to take an exam for Technician
-Class, General Class or Extra Class License. **The License Exam will
-start at 3:00 PM, please show up before 3:00 PM.** Please print and
-mail the completed sign-up form. Reserve your seat by noon on the
-Friday preceding the test date. **No walk-ins.** For reservations and
-questions telephone Elaine Albertson, AH6TA at 808-652-0258 (cell).
-
-[Click here to get to the printable registration form with instructions.]({{assets}}/doc/karc_test_registration.pdf)
-
-The License Exam will be administered under the auspices of
-W5YI-VEC. Here are the basics for license testing. You MUST bring the
-following:
-* Two forms of ID, one must be a photo ID (driver’s license or
-  similar)
-* A photo copy of your Ham Radio License if upgrading to General or
-  Extra Class
-* Your Certificates of Completion (CSCE) from previous test session
-  (if you are seeking credit for elements already passed)
-* A Pencil **and** Pen. (Pencil for answer sheet; Pen for filling out
-  W5YI/FCC forms)
-* The W5YI Testing FEE of $14.00 (cash only) **Please bring exact
-  change**
-
-You may bring a calculator to the test session, but you must prove to
-the examiners that you have cleared the memories, and have no formulas
-stored in any other way. No cell phones of any type are permitted on
-the table during testing. No other papers, folders, notes, etc. are
-permitted. No one is allowed to leave the testing room before turning
-in their completed test papers and related items. Anyone NOT testing
-will be required to wait outside.
-
-(Cell phone number on test day is 808-652-0258, for proctor Elaine
-Albertson AH6TA).
+We cannot accept walk-ins. You must pre-register. This is because we
+have to prepare documents for each examinee on the evening preceding
+the exam day. To do so at the exam would drain valuable time from
+other examinees, and from our volunteer examiners.
