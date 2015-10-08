@@ -25,13 +25,13 @@
     "grunt-contrib-watch": "*",
     "grunt-execute": "*",
     "grunt-frep": "*",
-    "grunt-purescript": "*",
     "grunt-s3": "*",
     "grunt-sync-pkg": "*",
     "grunt-verb": "*",
     "handlebars-helper-prettify": "*",
     "load-grunt-tasks": "*",
     "pretty": "*",
+    "pulp": "*",
     "time-grunt": "*"
   },
   "engines": {
