@@ -1,0 +1,1 @@
+pulp: "mkdir -p dist/assets/js/ && ./node_modules/.bin/pulp build -O >dist/assets/js/kh6e.js"

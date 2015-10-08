@@ -17,7 +17,7 @@ module.exports = function(grunt) {
   );
 
   grunt.registerTask("build", [
-    "assemble", "less", "copy"
+    "exec", "assemble", "less", "copy"
   ]);
 
   grunt.registerTask("dev",     [ "build", "connect:livereload", "watch" ]);
