@@ -15,12 +15,14 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -}
 
-module KH6E where
+module Main where
 
+import           Prelude
 import           Control.Monad.Eff
 import           Data.Array
 import           Leaflet.LatLng
 import           Leaflet.LatLngBounds
+import           Leaflet.Layer
 import           Leaflet.LayerGroup
 import           Leaflet.Map
 import           Leaflet.Marker
@@ -73,23 +75,18 @@ karcMeetingPlaces = do
   kiuc  <- bindPopup "Kauai Island Utility Coop<br>Suite 1" {}
            $ marker { icon: blueFlashIcon }
            $ latLng 21.970248 (-159.384513)
-  fpig  <- bindPopup "The Feral Pig" {}
+  food  <- bindPopup "Bamboo Grill & Sushi" {}
            $ marker { icon: blueCutleryIcon }
-           $ latLng 21.961465 (-159.353008)
+           $ latLng 21.9594047 (-159.3533086)
   return
     <<< toILayer
     <<< layerGroup
     <<< map toILayer
-    $ [ civic, kiuc, fpig ]
+    $ [ civic, kiuc, food ]
 
-foreign import windowWidth
-  "function windowWidth() { return $(window).width(); }"
-  :: forall e. Eff e Number
+foreign import windowWidth :: forall e. Eff e Number
 
-zoomByWidth n = if n > 768 then 11 else 10
-
-kauaiMap :: forall e. Eff e Map
-kauaiMap = do
+main = do
   map <- streetMap
   repeaters <- karcRepeaters
   places <- karcMeetingPlaces
@@ -102,4 +99,4 @@ kauaiMap = do
                     center: centerOfKauai,
                     layers: [ map, repeaters, places ],
                     maxBounds: bounds,
-                    zoom: zoomByWidth width }
+                    zoom: if width > 768.0 then 11 else 10 }
