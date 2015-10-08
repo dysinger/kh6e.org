@@ -20,7 +20,6 @@ module.exports = function(grunt) {
     "assemble", "less", "copy"
   ]);
 
-  grunt.registerTask("test",    [ "psc:tests", "execute:tests" ]);
   grunt.registerTask("dev",     [ "build", "connect:livereload", "watch" ]);
   grunt.registerTask("deploy",  [ "build", "s3" ]);
   grunt.registerTask("default", [ "build" ]);

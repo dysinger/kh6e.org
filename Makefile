@@ -17,9 +17,6 @@ build: $(NOMS) $(BOCO)
 	@$(PULP) build -O > dist/assets/js/kh6e.js
 	@$(GRUNT) build
 
-test: $(NOMS) $(BOCO)
-	@$(GRUNT) test
-
 dev: $(NOMS) $(BOCO)
 	@$(GRUNT) dev
 
@@ -32,4 +29,4 @@ clean:
 distclean: clean
 	@rm -rf $(NOMS) $(BOCO)
 
-.PHONY: all build test dev deploy clean distclean
+.PHONY: all build dev deploy clean distclean
