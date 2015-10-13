@@ -32,7 +32,7 @@
   {
     "call": "KH6E",
     "frequency": "147.100",
-    "linked": false,
+    "linked": true,
     "location": "Hwy to Kokee (W)",
     "name": "Waimea Canyon",
     "offset": "+",
