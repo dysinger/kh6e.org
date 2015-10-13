@@ -21,7 +21,7 @@
       <td>{{name}}</td>
       <td>{{frequency}} MHz</td>
       <td>{{offset}}</td>
-      <td>100.0 Hz</td>
+      <td>{{tone}}</td>
     </tr>
 {{/each}}
   </tbody>

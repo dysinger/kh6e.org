@@ -6,6 +6,7 @@
     "location": "Kilauea (N)",
     "name": "Crater Hill",
     "offset": "-",
+    "tone": "100.0 Hz",
     "sponsor": "KARC"
   },
   {
@@ -15,6 +16,7 @@
     "location": "Above Kalaheo (SW)",
     "name": "Mt Kahili",
     "offset": "-",
+    "tone": "100.0 Hz",
     "sponsor": "KARC"
   },
   {
@@ -24,6 +26,7 @@
     "location": "Lihue, Wilcox Hospital (E)",
     "name": "Wilcox Hospital",
     "offset": "+",
+    "tone": "100.0 Hz",
     "sponsor": "KARC"
   },
   {
@@ -33,6 +36,7 @@
     "location": "Hwy to Kokee (W)",
     "name": "Waimea Canyon",
     "offset": "+",
+    "tone": "100.0 Hz",
     "sponsor": "KARC"
   }
 ]
