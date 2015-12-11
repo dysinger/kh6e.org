@@ -3,3 +3,6 @@ tests:
 
 psc:
 - dist
+
+pulp:
+- '.pulp-cache'
