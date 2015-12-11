@@ -1,1 +1,1 @@
-pulp: "mkdir -p dist/assets/js/ && ./node_modules/.bin/pulp build -O >dist/assets/js/kh6e.js"
+pulp: "export PATH=$PWD/node_modules/.bin:$PATH && mkdir -p dist/assets/js/ && pulp build -O >dist/assets/js/kh6e.js"

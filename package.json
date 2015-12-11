@@ -32,6 +32,7 @@
     "load-grunt-tasks": "*",
     "pretty": "*",
     "pulp": "*",
+    "purescript": "*",
     "time-grunt": "*"
   },
   "engines": {
