@@ -19,7 +19,6 @@ module Main where
 
 import           Prelude
 import           Control.Monad.Eff
-import           Data.Array
 import           Leaflet.LatLng
 import           Leaflet.LatLngBounds
 import           Leaflet.Layer
@@ -27,20 +26,22 @@ import           Leaflet.LayerGroup
 import           Leaflet.Map
 import           Leaflet.Marker
 import qualified Leaflet.Plugin.AwesomeMarkers as Awesome
-import           Leaflet.Popup
 import           Leaflet.TileLayer
 import           Leaflet.Types
 
+streetMap :: forall e. Eff e ILayer
 streetMap = do
   tile <- tileLayer "http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpg"
           $ { subdomains: [ "otile1", "otile2", "otile3", "otile4" ] }
   return $ toILayer tile
 
+topoMap :: forall e. Eff e ILayer
 topoMap = do
   tile <- tileLayer "http://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png"
           $ { subdomains: [] }
   return $ toILayer tile
 
+karcRepeaters :: forall e. Eff e ILayer
 karcRepeaters = do
   greenTransferIcon <- Awesome.icon { prefix: "glyphicon"
                                     , icon: "transfer"
@@ -59,6 +60,7 @@ karcRepeaters = do
             $ latLng 22.221804 (-159.400771)
   return $ toILayer $ layerGroup $ map toILayer [ kahili, wilcox, waimea, crater ]
 
+karcMeetingPlaces :: forall e. Eff e ILayer
 karcMeetingPlaces = do
   blueInstitutionIcon <- Awesome.icon { prefix: "fa"
                                       , icon: "institution"
@@ -86,6 +88,7 @@ karcMeetingPlaces = do
 
 foreign import windowWidth :: forall e. Eff e Number
 
+main :: forall e. Eff e Map
 main = do
   map <- streetMap
   repeaters <- karcRepeaters
