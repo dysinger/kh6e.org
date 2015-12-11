@@ -8,9 +8,6 @@
     "purescript-leaflet": "*",
     "purescript-prelude": "*"
   },
-  "devDependencies": {
-    "purescript-quickcheck": "*"
-  },
   "ignore": [
     "**/.*",
     "bower_components",
