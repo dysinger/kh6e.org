@@ -2,7 +2,7 @@
   {
     "location": "Anahola",
     "call": "NH7CJ",
-    "frequency": "146.600",
+    "frequency": "145.600",
     "type": "Simplex",
     "pl": "100.0"
   },
@@ -15,14 +15,14 @@
   {
     "location": "Lihue",
     "call": "KH6S",
-    "frequency": "442.250",
+    "frequency": "442.250+",
     "type": "Repeater",
     "pl": "100.0"
   },
   {
     "location": "Kalaheo",
     "call": "KH6S",
-    "frequency": "444.975",
+    "frequency": "444.975+",
     "type": "Repeater",
     "pl": "100.0"
   },
