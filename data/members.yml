@@ -13,6 +13,8 @@
 - first_name: Elaine
   last_name: Albertson
   call_sign: AH6TA
+  roles:
+  - Activities Director
   years:
   - 2014
   
@@ -20,7 +22,6 @@
   last_name: Dysinger
   call_sign: AH6TE
   roles:
-  - Activities Director
   - Website
   years:
   - 2014
