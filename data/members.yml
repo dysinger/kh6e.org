@@ -1,446 +1,281 @@
 - first_name: Ken
   last_name: Cannon
   call_sign: AH6NN
-  years:
-  - 2014
 
 - first_name: Jonathan
   last_name: Kepiki
   call_sign: AH6QC
-  years:
-  - 2014
   
 - first_name: Elaine
   last_name: Albertson
   call_sign: AH6TA
   roles:
   - Activities Director
-  years:
-  - 2014
   
 - first_name: Tim
   last_name: Dysinger
   call_sign: AH6TE
   roles:
   - Website
-  years:
-  - 2014
-  - 2015
   
 - first_name: Craig
   last_name: Harwell
   call_sign: AH6UA
-  years:
-  - 2014
   
 - first_name: Mark
   last_name: Cook
   call_sign: AH6UL
-  years:
-  - 2014
-  - 2015
   
 - first_name: Tom
   last_name: Ellis
   call_sign: K4XV
-  years:
-  - 2014
   
 - first_name: Phillip
   last_name: Tanner
   call_sign: KB7FBM
-  years:
-  - 2014
-  - 2015
   
 - first_name: Dave
   last_name: Calhoun
   call_sign: KC7HPT
-  years:
-  - 2014
   
 - first_name: Amber
   last_name: Calhoun
   call_sign: KC7ITJ
-  years:
-  - 2014
 
 - first_name: John
   last_name: Gill
   call_sign: KF6VI
-  years:
-  - 2014
 
 - first_name: Robert
   last_name: Anderson
   call_sign: KH6AS
-  years:
-  - 2014
-  - 2015
 
 - first_name: Dick
   last_name: Olsen
   call_sign: KH6DO
   roles:
   - Treasurer
-  years:
-  - 2014
-  - 2015
 
 - first_name: Edward
   last_name: Pagaduan
   call_sign: KH6EZ
-  years:
-  - 2014
 
 - first_name: Roger
   last_name: Caires
   call_sign: KH6FGS
-  years:
-  - 2014
-  - 2015
 
 - first_name: Jerry
   last_name: Hill
   call_sign: KH6HU
-  years:
-  - 2015
 
 - first_name: Robert
   last_name: Rivard
   call_sign: KH6ILL
-  years:
-  - 2014
-  - 2015
 
 - first_name: John
   last_name: Montalbano
   call_sign: KH6JMM
   silent_key: true
-  years:
-  - 2014
-  - 2015
 
 - first_name: Ron
   last_name: Crown
   call_sign: KH6JI
   roles:
   - Repeaters
-  years:
-  - 2014
-  - 2015
 
 - first_name: Ron
   last_name: Victorino
   call_sign: KH6JPT
-  years:
-  - 2014
 
 - first_name: Allyn
-  years:
-  - 2015
   last_name: Smith
   call_sign: KH7ARS
 
 - first_name: Gavin
   last_name: Reid
   call_sign: KH7DT
-  years:
-  - 2014
-  - 2015
 
 - first_name: Ruth
   last_name: Montalbano
   call_sign: KH7RAM
-  years:
-  - 2014
-  - 2015
 
 - first_name: Edward
   last_name: Whitby
   call_sign: KK6COS
-  years:
-  - 2014
-  - 2015
 
 - first_name: Clifford
   last_name: Ikeda
   call_sign: NH6HF
-  years:
-  - 2014
-  - 2015
 
 - first_name: Mitchell
   last_name: Oishi
   call_sign: NH6JC
-  years:
-  - 2014
 
 - first_name: Ken
   last_name: Dorland
   call_sign: NH6O
   silent_key: true
-  years:
-  - 2014
 
 - first_name: Kurt
   last_name: Momohara
   call_sign: NH6WZ
-  years:
-  - 2015
 
 - first_name: Darlene
   last_name: Rita-Sarmento
   call_sign: NH7CD
-  years:
-  - 2014
 
 - first_name: Jane
   last_name: Goldsmith
   call_sign: NH7TZ
-  years:
-  - 2014
-  - 2015
 
 - first_name: Bob
   last_name: Robertson
   call_sign: NH7UP
-  years:
-  - 2014
-  - 2015
 
 - first_name: Gerald
   last_name: Shinn
   call_sign: NH7UT
-  years:
-  - 2014
 
 - first_name: Ginny
   last_name: Shinn
   call_sign: NH7UV
-  years:
-  - 2014
 
 - first_name: John
   last_name: Gordon
   call_sign: NH7YQ
-  years:
-  - 2014
-  - 2015
 
 - first_name: Tad
   last_name: Miura
   call_sign: NH7YS
-  years:
-  - 2014
-  - 2015
 
 - first_name: Alfred
   last_name: Sarmento
   call_sign: NH7ZR
-  years:
-  - 2014
 
 - first_name: Caroline
   last_name: Miura
   call_sign: NH7ZS
-  years:
-  - 2014
-  - 2015
 
 - first_name: John
   last_name: Leekley
   call_sign: WB9SMM
-  years:
-  - 2014
-  - 2015
 
 - first_name: Dallas
   last_name: Brown
   call_sign: WG6CHA
-  years:
-  - 2014
 
 - first_name: Richard
   last_name: Etzel
   call_sign: WH6DTV
-  years:
-  - 2014
-  - 2015
 
 - first_name: Bill
   last_name: Miller
   call_sign: WH6DSC
-  years:
-  - 2014
 
 - first_name: Steve
   last_name: Thatcher
   call_sign: WH6DZP
   roles:
   - President
-  years:
-  - 2014
-  - 2015
 
 - first_name: Bart
   last_name: Abbott
   call_sign: WH6DXI
-  years:
-  - 2015
 
 - first_name: Sara
   last_name: Dysinger
   call_sign: WH6EBU
-  years:
-  - 2014
-  - 2015
 
 - first_name: James
   last_name: Tanizaki
   call_sign: WH6EEK
-  years:
-  - 2014
 
 - first_name: Greg
   last_name: McFarland
   call_sign: WH6EIO
-  years:
-  - 2014
-  - 2015
 
 - first_name: Scott
   last_name: Robeson
   call_sign: WH6EMD
-  years:
-  - 2014
-  - 2015
 
 - first_name: Glenda
   last_name: Delenstarr
   call_sign: WH6EMG
-  years:
-  - 2014
 
 - first_name: James
   last_name: Beardmore
   call_sign: WH6ENP
-  years:
-  - 2015
 
 - first_name: Debra
   last_name: de Luis
   call_sign: WH6ENQ
-  years:
-  - 2014
-  - 2015
 
 - first_name: Rhian
   last_name: Campbell
   call_sign: WH6EOO
-  years:
-  - 2014
-  - 2015
 
 - first_name: Sundee
-  years:
-  - 2014
-  - 2015
   last_name: Cline-Campbell
   call_sign: WH6EOP
 
 - first_name: Lawrence
   last_name: Lademan
   call_sign: WH6EOR
-  years:
-  - 2015
 
 - first_name: Edward
   last_name: Edwards
   call_sign: WH6ERB
-  years:
-  - 2015
 
 - first_name: Allan
   last_name: Parachini
   call_sign: WH6ERD
-  years:
-  - 2015
 
 - first_name: Mike
   last_name: Kano
   call_sign: WH6QI
-  years:
-  - 2014
 
 - first_name: Lionel
   last_name: Medeiros
   call_sign: WH7JW
-  years:
-  - 2014
 
 - first_name: Mary
   last_name: Neudorffer
   call_sign: WH7JX
-  years:
-  - 2014
 
 - first_name: David
   last_name: Bown
   call_sign: WH7SI
-  years:
-  - 2014
 
 - first_name: Robert
   last_name: Tanita
   call_sign: WH7SU
-  years:
-  - 2014
-  - 2015
 
 - first_name: Franklin
   last_name: Kakazu
   call_sign: WH7TX
-  years:
-  - 2014
-  - 2015
 
 - first_name: Michelle
   last_name: Blake
   call_sign: WH7XA
   roles:
   - Secretary
-  years:
-  - 2014
-  - 2015
 
 - first_name: Paul
   last_name: Marshall
   call_sign: WH7ZF
-  years:
-  - 2014
 
 - first_name: Randall
   last_name: Blake
   call_sign: WH7ZI
   roles:
   - Public Service Communications
-  years:
-  - 2014
-  - 2015
 
 - first_name: Patrick
   last_name: Joy
   call_sign: WR1Z
-  years:
-  - 2014
 
 - first_name: Caroline
   last_name: Baker
-  years:
-  - 2014
 
 - first_name: Sandy
   last_name: Lademan
-  years:
-  - 2015
