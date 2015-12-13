@@ -43,8 +43,8 @@ topoMap = do
 
 karcRepeaters :: forall e. Eff e ILayer
 karcRepeaters = do
-  greenTransferIcon <- Awesome.icon { prefix: "glyphicon"
-                                    , icon: "transfer"
+  greenTransferIcon <- Awesome.icon { prefix: "fa"
+                                    , icon: "exchange"
                                     , markerColor: "green" }
   kahili <- bindPopup "Mt. Kahili: 146.920 (-)" {}
             $ marker { icon: greenTransferIcon }
@@ -65,11 +65,11 @@ karcMeetingPlaces = do
   blueInstitutionIcon <- Awesome.icon { prefix: "fa"
                                       , icon: "institution"
                                       , markerColor: "blue" }
-  blueFlashIcon <- Awesome.icon { prefix: "glyphicon"
+  blueFlashIcon <- Awesome.icon { prefix: "fa"
                                 , icon: "flash"
                                 , markerColor: "blue" }
-  blueCutleryIcon <- Awesome.icon { prefix: "glyphicon"
-                                  , icon: "cutlery"
+  blueCutleryIcon <- Awesome.icon { prefix: "fa"
+                                  , icon: "glass"
                                   , markerColor: "blue" }
   civic <- bindPopup "Lihue Civic Center<br>(Planning Room 2A/2B)" {}
            $ marker { icon: blueInstitutionIcon }
