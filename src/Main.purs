@@ -79,7 +79,7 @@ karcMeetingPlaces = do
            $ latLng 21.970248 (-159.384513)
   food  <- bindPopup "Kalapaki Joe's Kukui Grove" {}
            $ marker { icon: blueCutleryIcon }
-           $ latLng 21.9693591 (-159.3809998)
+           $ latLng 21.968975 (-159.378550)
   return
     <<< toILayer
     <<< layerGroup
