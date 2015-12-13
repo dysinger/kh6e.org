@@ -77,9 +77,9 @@ karcMeetingPlaces = do
   kiuc  <- bindPopup "Kauai Island Utility Coop<br>Suite 1" {}
            $ marker { icon: blueFlashIcon }
            $ latLng 21.970248 (-159.384513)
-  food  <- bindPopup "Bamboo Grill & Sushi" {}
+  food  <- bindPopup "Kalapaki Joe's Kukui Grove" {}
            $ marker { icon: blueCutleryIcon }
-           $ latLng 21.9594047 (-159.3533086)
+           $ latLng 21.9693591 (-159.3809998)
   return
     <<< toILayer
     <<< layerGroup
