@@ -3,8 +3,8 @@
     "call": "KH6E",
     "frequency": "146.700",
     "linked": true,
-    "location": "Kilauea (N)",
-    "name": "Crater Hill",
+    "location": "Kilauea",
+    "name": "Crater Hill (North)",
     "offset": "-",
     "tone": "100.0 Hz",
     "sponsor": "KARC"
@@ -13,8 +13,8 @@
     "call": "KH6E",
     "frequency": "146.920",
     "linked": true,
-    "location": "Above Kalaheo (SW)",
-    "name": "Mt Kahili",
+    "location": "Above Kalaheo",
+    "name": "Mt Kahili (South)",
     "offset": "-",
     "tone": "100.0 Hz",
     "sponsor": "KARC"
@@ -23,8 +23,8 @@
     "call": "KH6E",
     "frequency": "147.080",
     "linked": true,
-    "location": "Lihue, Wilcox Hospital (E)",
-    "name": "Wilcox Hospital",
+    "location": "Lihue, Wilcox Hospital",
+    "name": "Wilcox Hospital (East)",
     "offset": "+",
     "tone": "100.0 Hz",
     "sponsor": "KARC"
@@ -33,8 +33,8 @@
     "call": "KH6E",
     "frequency": "147.100",
     "linked": true,
-    "location": "Hwy to Kokee (W)",
-    "name": "Waimea Canyon",
+    "location": "Hwy to Kokee",
+    "name": "Waimea Canyon (West)",
     "offset": "+",
     "tone": "100.0 Hz",
     "sponsor": "KARC"
