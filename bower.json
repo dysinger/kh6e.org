@@ -5,6 +5,7 @@
     "html5shiv": "*",
     "jquery": "*",
     "purescript-arrays": "*",
+    "purescript-eff": "*",
     "purescript-leaflet": "*",
     "purescript-prelude": "*"
   },
