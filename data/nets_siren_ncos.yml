@@ -1,0 +1,84 @@
+- date: '2016-01'
+  ncs:
+    name: Elaine Albertson
+    call: AH6TA
+  logger:
+    name: Tad Miura
+    call: NH7YS
+- date: '2016-02'
+  ncs:
+    name: Randy Blake
+    call: WH7ZI
+  logger:
+    name: Elaine Albertson
+    call: AH6TA
+- date: '2016-03'
+  ncs:
+    name: John Leekley
+    call: WB9SMM
+  logger:
+    name: Jane Goldsmith
+    call: NH7TZ
+- date: '2016-04'
+  ncs:
+    name: Jane Goldsmith
+    call: NH7TZ
+  logger:
+    name: John Leekley
+    call: WB9SMM
+- date: '2016-05'
+  ncs:
+    name: Tad Miura
+    call: NH7YS
+  logger:
+    name: Randy Blake
+    call: WH7ZI
+- date: '2016-06'
+  ncs:
+    name: Randy Blake
+    call: WH7ZI
+  logger:
+    name: James Mertens
+    call: WH6ERC
+- date: '2016-07'
+  ncs:
+    name: Elaine Albertson
+    call: AH6TA
+  logger:
+    name: Scott Robson
+    call: WH6EMD
+- date: '2016-08'
+  ncs:
+    name: Michelle Blake
+    call: WH7XA
+  logger:
+    name: Elaine Albertson
+    call: AH6TA
+- date: '2016-09'
+  ncs:
+    name: Scott Robson
+    call: WH6EMD
+  logger:
+    name: James Mertens
+    call: WH6ERC
+- date: '2016-10'
+  ncs:
+    name: Steve Thatcher
+    call: WH6DTV
+  logger:
+    name: Randy Blake
+    call: WH7ZI
+- date: '2016-11'
+  ncs:
+    name: Randy Blake
+    call: WH7ZI
+  logger:
+    name: Steve Thatcher
+    call: WH6DTV
+- date: '2016-12'
+  ncs:
+    name: James Mertens
+    call: WH6ERC
+  logger:
+    name: Tad Miura
+    call: NH7YS
