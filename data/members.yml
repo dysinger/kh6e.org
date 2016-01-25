@@ -230,6 +230,12 @@
   last_name: Parachini
   call_sign: WH6ERD
 
+- first_name: Kimo
+  last_name: Keawe
+  call_sign: WH6FB
+  roles:
+  - Vice President
+
 - first_name: Mike
   last_name: Kano
   call_sign: WH6QI
