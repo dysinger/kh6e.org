@@ -23,4 +23,4 @@ Fire Fighters John Cornell / Justin Kinoshita<br>
 "CERT", Community Emergency Response Team Coordinator,<br>
 County of Kaua`i, Fire Department<br>
 Cell: 808-645-0661<br>
-EMail: [kfdcert@kauai.gov](mailto:kfdcert@kauai.gov?subject="March 23rd Ares-Races Communications Exercise")<br>
+Email: [kfdcert@kauai.gov](mailto:kfdcert@kauai.gov?subject="March 23rd Ares-Races Communications Exercise")<br>
