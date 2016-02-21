@@ -71,6 +71,9 @@ karcMeetingPlaces = do
   blueCutleryIcon <- Awesome.icon { prefix: "fa"
                                   , icon: "glass"
                                   , markerColor: "blue" }
+  govBuildingIcon <- Awesome.icon { prefix: "fa"
+                                  , icon: "university"
+                                  , markerColor: "blue" }
   civic <- bindPopup "Lihue Civic Center<br>(Planning Room 2A/2B)" {}
            $ marker { icon: blueInstitutionIcon }
            $ latLng 21.975795 (-159.369375)
@@ -80,11 +83,14 @@ karcMeetingPlaces = do
   food  <- bindPopup "Kalapaki Joe's Kukui Grove" {}
            $ marker { icon: blueCutleryIcon }
            $ latLng 21.968975 (-159.378550)
+  eoc   <- bindPopup "Kauai Civil Defense Agency \"EOC\"" {}
+           $ marker { icon: govBuildingIcon }
+           $ latLng 21.977250 (-159.355250)
   return
     <<< toILayer
     <<< layerGroup
     <<< map toILayer
-    $ [ civic, kiuc, food ]
+    $ [ civic, kiuc, food, eoc ]
 
 foreign import windowWidth :: forall e. Eff e Number
 
