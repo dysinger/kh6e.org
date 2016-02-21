@@ -71,9 +71,6 @@ karcMeetingPlaces = do
   blueCutleryIcon <- Awesome.icon { prefix: "fa"
                                   , icon: "glass"
                                   , markerColor: "blue" }
-  govBuildingIcon <- Awesome.icon { prefix: "fa"
-                                  , icon: "university"
-                                  , markerColor: "blue" }
   civic <- bindPopup "Lihue Civic Center<br>(Planning Room 2A/2B)" {}
            $ marker { icon: blueInstitutionIcon }
            $ latLng 21.975795 (-159.369375)
@@ -84,7 +81,7 @@ karcMeetingPlaces = do
            $ marker { icon: blueCutleryIcon }
            $ latLng 21.968975 (-159.378550)
   eoc   <- bindPopup "Kauai Civil Defense Agency \"EOC\"" {}
-           $ marker { icon: govBuildingIcon }
+           $ marker { icon: blueInstitutionIcon }
            $ latLng 21.977250 (-159.355250)
   return
     <<< toILayer
