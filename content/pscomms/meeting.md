@@ -14,5 +14,6 @@ March 18 by emailing
 Communications Meeting")
 
 The Kauai Civil Defense Agency EOC is located at 3990 Kaana Street
-Suite 100, on the Kauai Police Department campus. There is a marker on
-our <a href="{{relative to 'map.html'}}">interactive map page</a>.
+Suite 100, on the Kauai Police Department campus.
+
+View this on our [interactive map page]({{relative to 'map.html'}}).

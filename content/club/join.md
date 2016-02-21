@@ -8,9 +8,7 @@ expenses.  For example:
 - Running this KH6E website
 
 Fill out this
-<a href="{{assets}}/doc/kauai_amateur_radio_club_app_form.pdf">
-Kauai Amateur Radio Club Application
-</a>
+[Kauai Amateur Radio Club Application]({{assets}}/doc/kauai_amateur_radio_club_app_form.pdf)
 and mail it in today!
 
 ## Optional: Pay with PayPal
