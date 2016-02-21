@@ -69,7 +69,7 @@ karcMeetingPlaces = do
                                 , icon: "flash"
                                 , markerColor: "blue" }
   blueCutleryIcon <- Awesome.icon { prefix: "fa"
-                                  , icon: "glass"
+                                  , icon: "cutlery"
                                   , markerColor: "blue" }
   civic <- bindPopup "Lihue Civic Center<br>(Planning Room 2A/2B)" {}
            $ marker { icon: blueInstitutionIcon }
