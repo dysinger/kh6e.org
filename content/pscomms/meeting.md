@@ -1,15 +1,16 @@
 # Public Service Communications Meeting
 
-## February 8, 2016 @ 5:30PM
+## March 21, 2016 @ 5:30PM @ **Kauai Civil Defense Agency EOC**
 
-A discussion on upcoming communication events will take place as well
-as Fldigi practice.  Please bring your hand held radios and update
-your laptop’s Fldigi, Flmsg and Flwrap programs to the latest
-versions.  You can find the free program downloads at
-http://sourceforge.net/projects/fldigi/files/ The meeting will be held
-at the Lihue Civic Center’s Planning Room 2A/B. The meeting room is
-about 100' south (left) of DMV in the Civic Center. Contact Tad Miura,
-NH7YS, at ZSSQ@Hotmail.Com for more information.
+**Reservations Required**
 
-There is a marker on our <a href="{{relative to
-'map.html'}}">interactive map page</a>.
+Elton Ushio, the Kauai Civil Defense Agency Manager, will be taking us
+on a tour of the Emergency Operations Center (EOC) and speaking on his
+agency’s role during significant events impacting Kauai.  Everyone is
+welcome to attend this meeting, even if you are not a public service
+communicator.  If attending you will need to reserve your seat by
+March 18 by emailing Tad Miura, NH7YS, at ZSSQ@Hotmail.Com
+
+The Kauai Civil Defense Agency EOC is located at 3990 Kaana Street
+Suite 100, on the Kauai Police Department campus. There is a marker on
+our <a href="{{relative to 'map.html'}}">interactive map page</a>.
