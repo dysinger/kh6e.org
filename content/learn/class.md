@@ -6,5 +6,6 @@ weeks after each FCC license exam. The free 2 hour training covers the
 proper use of amateur radio, equipment cost, where to purchase it,
 frequencies, etiquette and safety.
 
-The class is free but reservations are required. Contact Tad Miura at
-ZSSQ@hotmail.com if you are interesting in taking this class.
+The class is free but reservations are required. Email
+[Tad Miura, NY7YS](mailto:ZSSQ@hotmail.com?subject="Intro to Amateur
+Radio Class") if you are interesting in taking this class.
