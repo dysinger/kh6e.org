@@ -1,6 +1,4 @@
-# Public Service Comms
-
-Public Service Communications (aka PS Comms).
+# Public Service Communications
 
 ### Links
 * [Amateur Radio Emergency Service (ARES)](http://www.arrl.org/ares)
