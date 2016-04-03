@@ -1,6 +1,6 @@
 # Public Service Communication (PSC) Net
 
-Thursdays, 7:00 PM, Kauai Amateur Radio Club Repeaters
+## Thursdays, 7:00 PM, Kauai Amateur Radio Club Repeaters
 
 Join us for the weekly PSC Net. We do one round of comments from those that
 check in. One Fldigi message is transmitted at the beginning of each net, using
