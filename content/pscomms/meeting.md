@@ -1,19 +1,20 @@
 # Public Service Communications Meeting
 
-## March 21, 2016 @ 5:30PM @ **Kauai Civil Defense Agency EOC**
+## April 18, 2016 @ 5:30PM @ Lihue Civic Center Planning Room 2A/B
 
-**Reservations Required**
+Coinciding with April’s Tsunami Awareness Month in Hawaii, we will be doing a
+tsunami tabletop exercise for the Public Service Communications meeting. A
+tabletop exercise is an activity which is designed to test the theoretical
+ability of a group to respond to a situation. The meeting begins promptly at
+5:30pm and ends at 7:00pm.
 
-Elton Ushio, the Kauai Civil Defense Agency Manager, will be taking us
-on a tour of the Emergency Operations Center (EOC) and speaking on his
-agency’s role during significant events impacting Kauai.  Everyone is
-welcome to attend this meeting, even if you are not a public service
-communicator.  If attending you will need to reserve your seat by
-March 18 by emailing
-[Tad Miura, NH7YS](mailto:ZSSQ@hotmail.com?subject="Public Service
-Communications Meeting")
+For more information, please email **Tad Miura, NH7YS, Kauai RACES Coordinator**
+at [ZSSQ@hotmail.com](mailto:ZSSQ@hotmail.com?subject="Public Service
+Communications Meeting") or **Randy Blake, WH7ZI, ARES District Emergency
+Coordinator** at [wh7zi@me.com](mailto:wh7zi@me.com?subject="Public Service
+Communications Meeting").
 
-The Kauai Civil Defense Agency EOC is located at 3990 Kaana Street
-Suite 100, on the Kauai Police Department campus.
+The meeting will be held at the Lihue Civic Center’s Planning Room 2A/B. The
+meeting room is about 100' south (left) of DMV in the Civic Center. 
 
 View this on our [interactive map page]({{relative to 'map.html'}}).
