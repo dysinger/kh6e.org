@@ -1,15 +1,9 @@
 [
   {
-    "call": "WH6FM",
-    "frequency": "444.725+",
-    "type": "Repeater",
-    "pl": "100.0"
-  },
-  {
-    "location": "Lihue",
+    "location": "Anahola",
     "call": "KH6S",
-    "frequency": "442.250+",
-    "type": "Repeater",
+    "frequency": "446.600",
+    "type": "Simplex",
     "pl": "100.0"
   },
   {
@@ -20,17 +14,10 @@
     "pl": "100.0"
   },
   {
-    "location": "Waimea",
+    "location": "Lihue",
     "call": "KH6S",
-    "frequency": "146.900",
-    "type": "Simplex",
-    "pl": "100.0"
-  },
-  {
-    "location": "Anahola",
-    "call": "KH6S",
-    "frequency": "446.600",
-    "type": "Simplex",
+    "frequency": "442.250+",
+    "type": "Repeater",
     "pl": "100.0"
   }
 ]
