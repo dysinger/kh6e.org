@@ -1,9 +1,9 @@
-# KARC Club Members
+# KARC Club Officers
 
 <table class="table table-striped table-bordered table-hover table-condensed">
   <thead>
     <tr>
-      <th>Members (Past & Present)</th>
+      <th>Officers</th>
       <th>Call Sign</th>
     </tr>
   </thead>

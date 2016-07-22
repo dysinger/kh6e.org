@@ -1,11 +1,3 @@
-- first_name: Ken
-  last_name: Cannon
-  call_sign: AH6NN
-
-- first_name: Jonathan
-  last_name: Kepiki
-  call_sign: AH6QC
-  
 - first_name: Elaine
   last_name: Albertson
   call_sign: AH6TA
@@ -18,64 +10,11 @@
   roles:
   - Website
   
-- first_name: Craig
-  last_name: Harwell
-  call_sign: AH6UA
-  
-- first_name: Mark
-  last_name: Cook
-  call_sign: AH6UL
-  
-- first_name: Tom
-  last_name: Ellis
-  call_sign: K4XV
-  
-- first_name: Phillip
-  last_name: Tanner
-  call_sign: KB7FBM
-  
-- first_name: Dave
-  last_name: Calhoun
-  call_sign: KC7HPT
-  
-- first_name: Amber
-  last_name: Calhoun
-  call_sign: KC7ITJ
-
-- first_name: John
-  last_name: Gill
-  call_sign: KF6VI
-
-- first_name: Robert
-  last_name: Anderson
-  call_sign: KH6AS
-
 - first_name: Dick
   last_name: Olsen
   call_sign: KH6DO
   roles:
   - Treasurer
-
-- first_name: Edward
-  last_name: Pagaduan
-  call_sign: KH6EZ
-
-- first_name: Roger
-  last_name: Caires
-  call_sign: KH6FGS
-
-- first_name: Jerry
-  last_name: Hill
-  call_sign: KH6HU
-
-- first_name: Robert
-  last_name: Rivard
-  call_sign: KH6ILL
-
-- first_name: John
-  last_name: Montalbano
-  call_sign: KH6JMM
-  silent_key: true
 
 - first_name: Ron
   last_name: Crown
@@ -83,152 +22,11 @@
   roles:
   - Repeaters
 
-- first_name: Ron
-  last_name: Victorino
-  call_sign: KH6JPT
-
-- first_name: Allyn
-  last_name: Smith
-  call_sign: KH7ARS
-
-- first_name: Gavin
-  last_name: Reid
-  call_sign: KH7DT
-
-- first_name: Ruth
-  last_name: Montalbano
-  call_sign: KH7RAM
-
-- first_name: Edward
-  last_name: Whitby
-  call_sign: KK6COS
-
-- first_name: Clifford
-  last_name: Ikeda
-  call_sign: NH6HF
-
-- first_name: Mitchell
-  last_name: Oishi
-  call_sign: NH6JC
-
-- first_name: Ken
-  last_name: Dorland
-  call_sign: NH6O
-  silent_key: true
-
-- first_name: Kurt
-  last_name: Momohara
-  call_sign: NH6WZ
-
-- first_name: Darlene
-  last_name: Rita-Sarmento
-  call_sign: NH7CD
-
-- first_name: Jane
-  last_name: Goldsmith
-  call_sign: NH7TZ
-
-- first_name: Bob
-  last_name: Robertson
-  call_sign: NH7UP
-
-- first_name: Gerald
-  last_name: Shinn
-  call_sign: NH7UT
-
-- first_name: Ginny
-  last_name: Shinn
-  call_sign: NH7UV
-
-- first_name: John
-  last_name: Gordon
-  call_sign: NH7YQ
-
-- first_name: Tad
-  last_name: Miura
-  call_sign: NH7YS
-
-- first_name: Alfred
-  last_name: Sarmento
-  call_sign: NH7ZR
-
-- first_name: Caroline
-  last_name: Miura
-  call_sign: NH7ZS
-
-- first_name: John
-  last_name: Leekley
-  call_sign: WB9SMM
-
-- first_name: Dallas
-  last_name: Brown
-  call_sign: WG6CHA
-
-- first_name: Richard
-  last_name: Etzel
-  call_sign: WH6DTV
-
-- first_name: Bill
-  last_name: Miller
-  call_sign: WH6DSC
-
 - first_name: Steve
   last_name: Thatcher
   call_sign: WH6DZP
   roles:
   - President
-
-- first_name: Bart
-  last_name: Abbott
-  call_sign: WH6DXI
-
-- first_name: Sara
-  last_name: Dysinger
-  call_sign: WH6EBU
-
-- first_name: James
-  last_name: Tanizaki
-  call_sign: WH6EEK
-
-- first_name: Greg
-  last_name: McFarland
-  call_sign: WH6EIO
-
-- first_name: Scott
-  last_name: Robeson
-  call_sign: WH6EMD
-
-- first_name: Glenda
-  last_name: Delenstarr
-  call_sign: WH6EMG
-
-- first_name: James
-  last_name: Beardmore
-  call_sign: WH6ENP
-
-- first_name: Debra
-  last_name: de Luis
-  call_sign: WH6ENQ
-
-- first_name: Rhian
-  last_name: Campbell
-  call_sign: WH6EOO
-
-- first_name: Sundee
-  last_name: Cline-Campbell
-  call_sign: WH6EOP
-
-- first_name: Lawrence
-  last_name: Lademan
-  call_sign: WH6EOR
-
-- first_name: Edward
-  last_name: Edwards
-  call_sign: WH6ERB
-
-- first_name: Allan
-  last_name: Parachini
-  call_sign: WH6ERD
 
 - first_name: Kimo
   last_name: Keawe
@@ -236,52 +34,14 @@
   roles:
   - Vice President
 
-- first_name: Mike
-  last_name: Kano
-  call_sign: WH6QI
-
-- first_name: Lionel
-  last_name: Medeiros
-  call_sign: WH7JW
-
-- first_name: Mary
-  last_name: Neudorffer
-  call_sign: WH7JX
-
-- first_name: David
-  last_name: Bown
-  call_sign: WH7SI
-
-- first_name: Robert
-  last_name: Tanita
-  call_sign: WH7SU
-
-- first_name: Franklin
-  last_name: Kakazu
-  call_sign: WH7TX
-
 - first_name: Michelle
   last_name: Blake
   call_sign: WH7XA
   roles:
   - Secretary
 
-- first_name: Paul
-  last_name: Marshall
-  call_sign: WH7ZF
-
 - first_name: Randall
   last_name: Blake
   call_sign: WH7ZI
   roles:
   - Public Service Communications
-
-- first_name: Patrick
-  last_name: Joy
-  call_sign: WR1Z
-
-- first_name: Caroline
-  last_name: Baker
-
-- first_name: Sandy
-  last_name: Lademan
