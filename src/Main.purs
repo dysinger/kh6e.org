@@ -17,29 +17,29 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 module Main where
 
-import           Prelude
-import           Control.Monad.Eff
-import           Leaflet.LatLng
-import           Leaflet.LatLngBounds
-import           Leaflet.Layer
-import           Leaflet.LayerGroup
-import           Leaflet.Map
-import           Leaflet.Marker
-import qualified Leaflet.Plugin.AwesomeMarkers as Awesome
-import           Leaflet.TileLayer
-import           Leaflet.Types
+import Prelude
+import Control.Monad.Eff (Eff)
+import Leaflet.LatLng (latLng)
+import Leaflet.LatLngBounds (latLngBounds, pad)
+import Leaflet.Layer (toILayer)
+import Leaflet.LayerGroup (layerGroup)
+import Leaflet.Map (createMap)
+import Leaflet.Marker (marker, bindPopup)
+import Leaflet.Plugin.AwesomeMarkers as Awesome
+import Leaflet.TileLayer (tileLayer)
+import Leaflet.Types (Map, ILayer)
 
 streetMap :: forall e. Eff e ILayer
 streetMap = do
   tile <- tileLayer "http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpg"
           $ { subdomains: [ "otile1", "otile2", "otile3", "otile4" ] }
-  return $ toILayer tile
+  pure $ toILayer tile
 
 topoMap :: forall e. Eff e ILayer
 topoMap = do
   tile <- tileLayer "http://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png"
           $ { subdomains: [] }
-  return $ toILayer tile
+  pure $ toILayer tile
 
 karcRepeaters :: forall e. Eff e ILayer
 karcRepeaters = do
@@ -58,7 +58,7 @@ karcRepeaters = do
   crater <- bindPopup "Crater Hill: 146.700 (-)" {}
             $ marker { icon: greenTransferIcon }
             $ latLng 22.221804 (-159.400771)
-  return $ toILayer $ layerGroup $ map toILayer [ kahili, wilcox, waimea, crater ]
+  pure $ toILayer $ layerGroup $ map toILayer [ kahili, wilcox, waimea, crater ]
 
 karcMeetingPlaces :: forall e. Eff e ILayer
 karcMeetingPlaces = do
@@ -83,7 +83,7 @@ karcMeetingPlaces = do
   eoc   <- bindPopup "Kauai Civil Defense Agency \"EOC\"" {}
            $ marker { icon: blueInstitutionIcon }
            $ latLng 21.977250 (-159.355250)
-  return
+  pure
     <<< toILayer
     <<< layerGroup
     <<< map toILayer
