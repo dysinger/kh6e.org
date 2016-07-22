@@ -31,15 +31,9 @@ import Leaflet.Types (Map, ILayer)
 
 streetMap :: forall e. Eff e ILayer
 streetMap = do
-  tile <- tileLayer "http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpg"
-          $ { subdomains: [ "otile1", "otile2", "otile3", "otile4" ] }
-  pure $ toILayer tile
-
-topoMap :: forall e. Eff e ILayer
-topoMap = do
-  tile <- tileLayer "http://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png"
-          $ { subdomains: [] }
-  pure $ toILayer tile
+  toILayer <$> tileLayer "http://{s}.tile.osm.org/{z}/{x}/{y}.png"
+    ({ attribution: "&copy; <a href='http://osm.org/copyright'>OpenStreetMap</a> contributors"
+     , subdomains: ["a", "b", "c"] })
 
 karcRepeaters :: forall e. Eff e ILayer
 karcRepeaters = do
